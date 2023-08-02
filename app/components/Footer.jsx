@@ -5,7 +5,7 @@ import { TiSocialInstagram } from "react-icons/ti";
 
 function Footer() {
   return (
-    <div className="h-auto relative sm:bg-[#2b3c96] bg-[url('https://pcdn.piiojs.com/i/xp3dch/vw,1536,vh,0,r,1,pr,1.3,o,wp/www.workapp.world%2Fv3_assets%2Fimgs%2Ffooter_bg101.jpg')] bg-no-repeat bg-cover">
+    <div className="h-auto relative mx-auto sm:bg-[#2b3c96] bg-[url('https://pcdn.piiojs.com/i/xp3dch/vw,1536,vh,0,r,1,pr,1.3,o,wp/www.workapp.world%2Fv3_assets%2Fimgs%2Ffooter_bg101.jpg')] bg-no-repeat bg-cover">
       <div className="grid grid-flow-row divide-y justify-center space-y-3">
         <div className="flex md:mt-10 mt-5 space-x-3 text-[#FFFFFF]">
           <div className="border-2 rounded-full h-10 w-10">
