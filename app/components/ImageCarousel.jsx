@@ -50,13 +50,13 @@ const ImageCarousel = () => {
       </div>
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-500 p-2 border"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-500 p-2 md:h-10 md:w-10 border"
       >
         <GrPrevious/>
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-500 p-2 border"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-500 p-2 md:h-10 md:w-10 border"
       >
         <GrNext />
       </button>
