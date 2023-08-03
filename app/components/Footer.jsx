@@ -62,10 +62,10 @@ function Footer() {
       </div>
       <div className="h-auto bg-[url('https://pcdn.piiojs.com/i/xp3dch/vw,1536,vh,0,r,1,pr,1.3,o,wp/www.workapp.world%2Fv3_assets%2Fimgs%2Ffooter_copyright.jpg')]">
         <div className="flex flex-row flex-wrap justify-center space-y-3 text-xs md:text-sm lg:text-base">
-          <div className="inline-block md:mb-2 mb-1 md:mt-3 mt-3 md:mb-3 mb-1 md:ml-10 space-x-3">
-            © 2023 ClasifiedApp. All rights reserved.
+          <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-1 md:ml-10 space-x-3">
+            © 2023 ClassifiedApp. All rights reserved.
           </div>
-          <div className="inline-block md:mb-2 mb-1 md:mt-3 mt-3 md:mb-3 mb-2 md:mr-10 mr-5 ml-5 space-y-3 space-x-3">
+          <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-2 md:mr-10 mr-5 ml-5 space-y-3 space-x-3">
             <a href="">Contact Us</a>
             <a href="">About Us</a>
             <a href="">Corporate Website</a>
