@@ -4,15 +4,15 @@ import { TiTick } from "react-icons/ti";
 const testimonials = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Angelah",
     text: `“I was looking for a casual job as a cleaner for a few months when a friend told me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
   },
   {
     id: 2,
-    name: "Jane Smith",
-    text: `“I posted a Job Vacancy on WorkApp for a bike technician and had an enquiry through WorkApp Messaging - the same day.
-      Found a great worker and very happy with the result. WorkApp worked awesomely for me!
-      Next is to use WorkApp to sell my bikes. Thanks WorkApp.”`,
+    name: "Chile",
+    text: `“I posted a Job Vacancy on ClassfiedApp for a bike technician and had an enquiry through ClassfiedApp Messaging - the same day.
+      Found a great worker and very happy with the result. ClassfiedApp worked awesomely for me!
+      Next is to use ClassfiedApp to sell my bikes. Thanks ClassfiedApp.”`,
   },
 ];
 
@@ -74,7 +74,7 @@ export default function Businesses() {
                 </p>
               </div>
             </div>
-            <div className="flex bottom-0 w-full flex justify-center md:my-5 lg:my-10 space-x-2">
+            <div className="flex bottom-0 w-full justify-center md:my-5 lg:my-10 space-x-2">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
@@ -98,8 +98,8 @@ export default function Businesses() {
               Download Classified App
             </h1>
             <p className="text-[#747489]">
-              Simply download WorkApp from the App Store, Google play or on
-              desktop via our WorkApp for the Web platform, and you’re ready to
+              Simply download ClassfiedApp from the App Store, Google play or on
+              desktop via our ClassfiedApp for the Web platform, and you’re ready to
               go.
             </p>
           </span>
@@ -110,7 +110,7 @@ export default function Businesses() {
             <p className="text-[#747489]">
               Add your business name, description, contact details, logo and
               additional images of your portfolio. You can also activate PayPal
-              and open your first WorkApp digital shop or simply link to your
+              and open your first Classfied App digital shop or simply link to your
               own website.
             </p>
           </span>
@@ -121,7 +121,7 @@ export default function Businesses() {
             <p className="text-[#747489]">
               Choose Edit Profile to add new products, promotions and job
               vacancies to your business profile. Remember to refresh your
-              WorkApp business listing every 30 days.
+              Classfied App business listing every 30 days.
             </p>
           </span>
         </div>
@@ -143,8 +143,8 @@ export default function Businesses() {
               Free Advertising!No Strings Attached
             </a>
             <p className="text-[#747489]">
-              - By Shane Wallace, CEO There are many great things about my role
-              as the CEO of WorkApp. I get to work with an amazing team of
+              - By Mark Sikaundi, CEO There are many great things about my role
+              as the CEO of DevCircle Africa. I get to work with an amazing team of
               professionals who give 110% every day and are [...]
             </p>
             <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
@@ -166,7 +166,7 @@ export default function Businesses() {
               Lessons learned from 6 Years in Enterprenuer Land
             </a>
             <p className="text-[#747489]">
-              Next month marks the 6th anniversary of the WorkApp story - an
+              Next month marks the 6th anniversary of the DevCircle Africa story - an
               amazing journey from a simple idea to a fully functioning,
               revolutionary platform growing stronger by the day. So, I’ve been
               reflecting on the lessons learned [...]
@@ -186,7 +186,7 @@ export default function Businesses() {
           <p className="flex mt-5 text-[#6D6E71]">
             Find and connect with local Workers.<br></br> Read rating and
             reviews, view their skills,<br></br> and availability. Make contact
-            instantly.<br></br> WorkApp, results for the here and now.
+            instantly.<br></br> Classified, results for the here and now.
           </p>
         </div>
       </div>
