@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Links from "./components/Links";
 import Panel from "./components/Panel";
 import ImageCarousel from "./components/ImageCarousel";
 import { BiSolidBriefcase, BiSolidMessageRounded } from "react-icons/bi";
@@ -51,9 +52,12 @@ export default function Home() {
             <p className="flex justify-center md:mt-5 mt-3">
               <BiSolidBriefcase size={60} />
             </p>
-            <a href="" className="flex justify-center md:mt-5 mt-3">
-              BUSINESSES
-            </a>
+            <span className="flex justify-center md:mt-5 mt-3">
+            <Links
+              url="/businesses"
+              text="BUSINESSES"
+            />
+            </span>
           </div>
           <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature2.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
