@@ -110,7 +110,7 @@ export default function Businesses() {
             <p className="text-[#747489]">
               Add your business name, description, contact details, logo and
               additional images of your portfolio. You can also activate PayPal
-              and open your first Classfied App digital shop or simply link to your
+              and open your first ClassfiedApp digital shop or simply link to your
               own website.
             </p>
           </span>
@@ -121,7 +121,7 @@ export default function Businesses() {
             <p className="text-[#747489]">
               Choose Edit Profile to add new products, promotions and job
               vacancies to your business profile. Remember to refresh your
-              Classfied App business listing every 30 days.
+              ClassfiedApp business listing every 30 days.
             </p>
           </span>
         </div>
@@ -186,7 +186,7 @@ export default function Businesses() {
           <p className="flex mt-5 text-[#6D6E71]">
             Find and connect with local Workers.<br></br> Read rating and
             reviews, view their skills,<br></br> and availability. Make contact
-            instantly.<br></br> Classified, results for the here and now.
+            instantly.<br></br> ClassifiedApp, results for the here and now.
           </p>
         </div>
       </div>
