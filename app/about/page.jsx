@@ -1,6 +1,6 @@
 import React from "react";
 import Links from "../components/Links";
-import Panel from "./components/Panel";
+import Panel from "../components/Panel";
 
 export default function Businesses() {
   return (

@@ -54,7 +54,7 @@ export default function Home() {
             </p>
             <span className="flex justify-center md:mt-5 mt-3">
             <Links
-              url="/businesses"
+              url="/business"
               text="BUSINESSES"
             />
             </span>
@@ -79,9 +79,12 @@ export default function Home() {
             <p className="flex justify-center md:mt-5 mt-3 ">
               <PiListMagnifyingGlassFill size={60} />
             </p>
-            <a href="" className="flex justify-center md:mt-5 mt-3">
-              CLASSIFIEDS
-            </a>
+            <span className="flex justify-center md:mt-5 mt-3">
+            <Links
+              url="/classifieds"
+              text="CLASSIFIEDS"
+            />
+            </span>
           </div>
           <div className="flex flex-row flex-wrap justify-center lg:mt-0 md:mt-4 mt-2">
             <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature6.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
