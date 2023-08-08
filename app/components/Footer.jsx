@@ -23,10 +23,10 @@ function Footer() {
       <div className="inline-block md:flex flex-wrap justify-center text-xs md:text-sm lg:text-base md:mt-5 mt-3 md:mb-8 mb-3 space-y-3">
         <ul className="flex flex-row flex-wrap justify-center space-y-3 space-x-3">
           <li className="mt-3">
-            <a href="">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="">Business</a>
+            <a href="/business">Business</a>
           </li>
           <li>
             <a href="">Workers</a>
@@ -47,7 +47,7 @@ function Footer() {
             <a href="">Events</a>
           </li>
           <li>
-            <a href="">Classifieds</a>
+            <a href="/classifieds">Classifieds</a>
           </li>
           <li>
             <a href="">Wanted</a>
