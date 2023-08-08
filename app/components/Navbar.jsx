@@ -15,7 +15,7 @@ function Navbar() {
     { id: 2, text: "Business", href: "/business" },
     { id: 3, text: "Workers", href: "/workers" },
     { id: 4, text: "jobs", href: "/jobs" },
-    { id: 5, text: "Classfields", href: "/classified" },
+    { id: 5, text: "Classifieds", href: "/classifieds" },
     { id: 6, text: "Community & Events", href: "/events" },
     { id: 7, text: "Messaging", href: "/messaging" },
     { id: 8, text: "About Us", href: "/about" },
