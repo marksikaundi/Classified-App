@@ -1,4 +1,5 @@
 // components/Panel.js
+"use client";
 import React, { useState } from "react";
 import { AiFillPlusSquare, AiFillMinusSquare } from "react-icons/ai";
 
