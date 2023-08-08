@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Businesses() {
   return (
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-      <div className="">
+    <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
+      <div className="md:py-8 py-3 ">
         <div className=""></div>
         <div className=""></div>
         <div className=""></div>
