@@ -42,19 +42,19 @@ function Header() {
             </svg>
           </button>
         </div>
-        <div
+        {/* <div
           className={`order-1 sm:order-2 flex flex-wrap justify-center sm:justify-start sm:w-1/3 ${
             isMenuOpen ? "block" : "hidden sm:flex"
           }`}
         >
-          {/* Download buttons */}
+          
           <div className={`p-2 ${isMenuOpen ? "block" : "hidden sm:block"}`}>
             <Image src="/ios.png" alt="logo" width={170} height={120} />
           </div>
           <div className={`p-2 ${isMenuOpen ? "block" : "hidden sm:block"}`}>
             <Image src="/googleplay.png" alt="logo" width={170} height={120} />
           </div>
-        </div>
+        </div> */}
         <div className="order-3 sm:order-3 mt-4 sm:mt-0 sm:w-1/3 flex justify-center sm:justify-end space-x-2">
           {/* Sign In and Sign Up buttons */}
           <button className="bg-gray-500 text-white px-4 py-2 rounded">
