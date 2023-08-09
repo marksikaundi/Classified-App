@@ -27,9 +27,9 @@ function Header() {
             aria-label="Toggle Menu"
           >
             <svg
-              className="w-6 h-6" // Set text color to black
+              className="w-6 h-6"
               fill="none"
-              stroke="black"
+              stroke="black" // Change the stroke color to black
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
