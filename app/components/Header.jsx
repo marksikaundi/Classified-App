@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
 
+// ... (previous imports and component definition)
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -21,13 +23,13 @@ function Header() {
         <div className="order-1 sm:order-2 flex sm:hidden ml-4">
           <button
             onClick={toggleMenu}
-            className="text-gray-600 focus:outline-none"
+            className="focus:outline-none"
             aria-label="Toggle Menu"
           >
             <svg
               className="w-6 h-6"
               fill="none"
-              stroke="currentColor"
+              stroke="black" // Change the stroke color to black
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -47,10 +49,10 @@ function Header() {
         >
           {/* Download buttons */}
           <div className="p-2">
-            <Image src="/ios.png" alt="logo" width={150} height={100} />
+            <Image src="/ios.png" alt="logo" width={170} height={120} />
           </div>
           <div className="p-2">
-            <Image src="/googleplay.png" alt="logo" width={150} height={100} />
+            <Image src="/googleplay.png" alt="logo" width={170} height={120} />
           </div>
         </div>
         <div className="order-3 sm:order-3 mt-4 sm:mt-0 sm:w-1/3 flex justify-center sm:justify-end space-x-2">
