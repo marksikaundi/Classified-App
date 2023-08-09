@@ -47,10 +47,10 @@ function Header() {
         >
           {/* Download buttons */}
           <div className="p-2">
-            <Image src="/ios.png" alt="logo" width={170} height={120} />
+            <Image src="/ios.png" alt="logo" width={150} height={100} />
           </div>
           <div className="p-2">
-            <Image src="/googleplay.png" alt="logo" width={170} height={120} />
+            <Image src="/googleplay.png" alt="logo" width={150} height={100} />
           </div>
         </div>
         <div className="order-3 sm:order-3 mt-4 sm:mt-0 sm:w-1/3 flex justify-center sm:justify-end space-x-2">
