@@ -27,12 +27,12 @@ function Navbar() {
 
   return (
 
-<div className='w-full flex h-16'>
-<ul className='hidden w-full sm:flex justify-center items-center'>
+<div className='md:w-full flex md:h-16'>
+<ul className='hidden w-full md:flex justify-center items-center'>
     {/* <Link href="/">
         <li className='hover:text-amber-600 ml-4 hover:border-b text-sm lg:text-xl'>home</li>
     </Link> */}
-    <nav className="hidden text-sm sm:flex flex-wrap items-center">
+    <nav className="hidden text-sm md:flex flex-wrap items-center">
         {navigationLinks.map((link) => (
             <Link key={link.id} href={link.href}>
                 <div className="group relative hover:bg-sky-500 transition-shadow">
@@ -44,7 +44,7 @@ function Navbar() {
 </ul>
 
 {/* mobile button */}
-<div onClick={handleNav} className='absolute text-white right-0 top-0 mr-5 mt-5 sm:hidden z-10'>
+<div onClick={handleNav} className='absolute text-[#2b3c96] right-0 top-0 mr-5 mt-5 md:hidden z-10'>
     {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/>}
 </div>
 
