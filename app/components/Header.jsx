@@ -1,10 +1,7 @@
 "use client"
-// ... (previous imports and component definition)
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
-
-// ... (previous imports and component definition)
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,8 +17,8 @@ function Header() {
           {/* Logo */}
           <Image src="/wa.png" alt="logo" width={320} height={180} />
         </div>
-        {/* Mobile menu toggle button with added margin */}
-        <div className="order-1 sm:order-2 flex sm:hidden ml-4">
+        {/* Mobile menu toggle button */}
+        <div className="order-1 sm:order-2 flex sm:hidden">
           <button
             onClick={toggleMenu}
             className="text-gray-600 focus:outline-none"
@@ -43,19 +40,19 @@ function Header() {
             </svg>
           </button>
         </div>
-        {/* <div
+        <div
           className={`order-1 sm:order-2 flex flex-wrap justify-center sm:justify-start sm:w-1/3 ${
             isMenuOpen ? "block" : "hidden sm:flex"
           }`}
         >
-          
-          <div className={`p-2 ${isMenuOpen ? "block" : "hidden sm:block"}`}>
+          {/* Download buttons */}
+          <div className="p-2">
             <Image src="/ios.png" alt="logo" width={170} height={120} />
           </div>
-          <div className={`p-2 ${isMenuOpen ? "block" : "hidden sm:block"}`}>
+          <div className="p-2">
             <Image src="/googleplay.png" alt="logo" width={170} height={120} />
           </div>
-        </div> */}
+        </div>
         <div className="order-3 sm:order-3 mt-4 sm:mt-0 sm:w-1/3 flex justify-center sm:justify-end space-x-2">
           {/* Sign In and Sign Up buttons */}
           <button className="bg-gray-500 text-white px-4 py-2 rounded">
