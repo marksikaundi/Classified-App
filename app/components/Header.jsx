@@ -1,3 +1,4 @@
+// ... (previous imports and component definition)
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
@@ -16,8 +17,8 @@ function Header() {
           {/* Logo */}
           <Image src="/wa.png" alt="logo" width={320} height={180} />
         </div>
-        {/* Mobile menu toggle button */}
-        <div className="order-1 sm:order-2 flex sm:hidden">
+        {/* Mobile menu toggle button with added margin */}
+        <div className="order-1 sm:order-2 flex sm:hidden ml-4">
           <button
             onClick={toggleMenu}
             className="text-gray-600 focus:outline-none"
