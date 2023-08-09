@@ -1,15 +1,9 @@
 "use client"
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
     <div className="h-fit border-1 max-w-full z-9999 bg-[#ffffff]">
       <div className="w-full px-4 sm:px-6 lg:px-8 m-auto py-4 flex flex-col sm:flex-row items-center bg-[#ffffff]">
@@ -17,34 +11,7 @@ function Header() {
           {/* Logo */}
           <Image src="/wa.png" alt="logo" width={320} height={180} />
         </div>
-        {/* Mobile menu toggle button */}
-        <div className="order-1 sm:order-2 flex sm:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-gray-600 focus:outline-none"
-            aria-label="Toggle Menu"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </button>
-        </div>
-        <div
-          className={`order-1 sm:order-2 flex flex-wrap justify-center sm:justify-start sm:w-1/3 ${
-            isMenuOpen ? "block" : "hidden sm:flex"
-          }`}
-        >
+        <div className="order-1 sm:order-2 flex flex-wrap justify-center sm:justify-start sm:w-1/3">
           {/* Download buttons */}
           <div className="p-2">
             <Image src="/ios.png" alt="logo" width={170} height={120} />
@@ -62,8 +29,7 @@ function Header() {
         </div>
       </div>
       <div className="bg-[#2b3c96]">
-        {/* Pass the isMenuOpen state to the Navbar component */}
-        <Navbar isMenuOpen={isMenuOpen} />
+        <Navbar />
       </div>
     </div>
   );
