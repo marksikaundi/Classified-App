@@ -21,7 +21,7 @@ function Header() {
           <button className="bg-gray-500 text-white px-4 py-2 rounded">
             Sign In
           </button>
-          <button className="bg-black text-white px-4 py-2">Sign Up</button>
+          <button className="bg-black text-white px-4 py-2 rounded">Sign Up</button>
         </div>
       </div>
       <div className="bg-[#2b3c96]">
