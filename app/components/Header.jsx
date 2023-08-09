@@ -7,7 +7,7 @@ function Header() {
     <div className="h-fit border-1 max-w-full z-9999 bg-[#ffffff]">
       <div className="sm:block md:flex justify-between w-4/5 px-20 m-auto py-4 items-center bg-[#ffffff]">
         <div className="left-0 top-0">
-          <Image src="/WA.png" alt="logo" width="320" height="180" />
+          <Image src="/wa.png" alt="logo" width="320" height="180" />
         </div>
         <div className="flex flex-wrap">
           <div className="p-4">
