@@ -23,13 +23,13 @@ function Header() {
         <div className="order-1 sm:order-2 flex sm:hidden ml-4">
           <button
             onClick={toggleMenu}
-            className="focus:outline-none"
+            className="text-gray-600 focus:outline-none"
             aria-label="Toggle Menu"
           >
             <svg
               className="w-6 h-6"
               fill="none"
-              stroke="black" // Change the stroke color to black
+              stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -48,10 +48,10 @@ function Header() {
           }`}
         >
           {/* Download buttons */}
-          <div className="p-2">
+          <div className={`p-2 ${isMenuOpen ? "block" : "hidden sm:block"}`}>
             <Image src="/ios.png" alt="logo" width={170} height={120} />
           </div>
-          <div className="p-2">
+          <div className={`p-2 ${isMenuOpen ? "block" : "hidden sm:block"}`}>
             <Image src="/googleplay.png" alt="logo" width={170} height={120} />
           </div>
         </div>
