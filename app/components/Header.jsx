@@ -5,30 +5,26 @@ import Image from "next/image";
 function Header() {
   return (
     <div className="h-fit border-1 max-w-full z-9999 bg-[#ffffff]">
-      <div className="sm:block md:flex justify-between w-4/5 px-20 m-auto py-4 items-center bg-[#ffffff]">
-        <div className="left-0 top-0">
-          <Image src="/wa.png" alt="logo" width="320" height="180" />
+      <div className="w-full px-4 sm:px-6 lg:px-8 m-auto py-4 flex flex-col sm:flex-row items-center bg-[#ffffff]">
+        <div className="sm:order-1 mb-4 sm:mb-0 sm:w-1/3">
+          <Image src="/wa.png" alt="logo" width={320} height={180} />
         </div>
-        <div className="flex flex-wrap">
-          <div className="p-4">
-            <Image src="/ios.png" alt="logo" width="170" height="120" />
+        <div className="flex flex-wrap justify-center sm:justify-start sm:w-1/3">
+          <div className="p-2">
+            <Image src="/ios.png" alt="logo" width={170} height={120} />
           </div>
-          <div className="p-4">
-            <Image src="/googleplay.png" alt="logo" width="170" height="120" />
+          <div className="p-2">
+            <Image src="/googleplay.png" alt="logo" width={170} height={120} />
           </div>
         </div>
-        <div className="block p-5 lg:flex flex-wrap flex-shrink space-x-2">
-          <div>
-            <button className="bg-gray-500 text-white px-4 py-2 rounded">
-              Sign In
-            </button>
-          </div>
-          <div>
-            <button className="bg-black text-white px-4 py-2">Sign Up</button>
-          </div>
+        <div className="mt-4 sm:mt-0 sm:w-1/3 flex justify-center sm:justify-end space-x-2">
+          <button className="bg-gray-500 text-white px-4 py-2 rounded">
+            Sign In
+          </button>
+          <button className="bg-black text-white px-4 py-2">Sign Up</button>
         </div>
       </div>
-      <div className="bottom-0 sm:flex flex-wrap bg-[#2b3c96] items-center">
+      <div className="bg-[#2b3c96]">
         <Navbar />
       </div>
     </div>
