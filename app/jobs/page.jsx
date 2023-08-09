@@ -63,6 +63,11 @@ function page() {
                   We love it when people around the globe get real value from [...]
                 </p>
               </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#2b3c96] hover:bg-[#2b3c96] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full text-[#2b3c96] transition-colors duration-300 hover:text-white m-auto">
+                  Read More
+                </button>
+              </div>
             </div>
           </div>
           <div className='flex justify-center items-center py-5 mx-5'>
@@ -79,6 +84,11 @@ function page() {
                   Recruitment Agencies play a prominent role in identifying, interviewing and shortlisting prospective staff.
                   A number of companies however, prefer to manage [...]
                 </p>
+              </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#2b3c96] hover:bg-[#2b3c96] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full text-[#2b3c96] transition-colors duration-300 hover:text-white m-auto">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
