@@ -71,7 +71,7 @@ function page() {
             </div>
           </div>
           <div className='flex justify-center items-center py-5 mx-5'>
-            <div className='grid grid-row-1 gap-2'>
+            <div className='grid grid-row-1 gap-3'>
               <div className='flex justify-center'>
                 <Image src="/assets/classified1.jpg" alt="logo" width={401} height={110} />
               </div>
