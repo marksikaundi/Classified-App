@@ -9,13 +9,13 @@ function Footer() {
       <div className="grid grid-flow-row divide-y justify-center space-y-3">
         <div className="flex md:mt-10 mt-5 space-x-3 text-[#FFFFFF]">
           <div className="border-2 rounded-full h-10 w-10">
-            <TiSocialFacebook size={25} />
+            <TiSocialFacebook size={25} className="m-1.5"/>
           </div>
           <div className="border-2 rounded-full h-10 w-10">
-            <BiLogoTwitter size={25} />
+            <BiLogoTwitter size={25} className="m-1.5"/>
           </div>
           <div className="border-2 rounded-full h-10 w-10">
-            <TiSocialInstagram size={25} />
+            <TiSocialInstagram size={25} className="m-1.5"/>
           </div>
         </div>
         <div></div>

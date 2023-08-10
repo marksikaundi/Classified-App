@@ -115,7 +115,7 @@ export default function Home() {
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <PiClockClockwiseFill size={60} />
               </p>
-              <a href="" className="flex justify-center md:mt-5 mt-3">
+              <a href="/whats-fresh" className="flex justify-center md:mt-5 mt-3">
                 WHAT&apos;S FRESH
               </a>
             </div>
