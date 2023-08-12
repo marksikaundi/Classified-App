@@ -16,7 +16,7 @@ export default function Messaging() {
             MESSAGING
           </h1>
           <p className="flex justify-center text-center text-[#6D6E71]">
-            Classified App is a brilliant way to instantly connect with people
+            ClassifiedApp is a brilliant way to instantly connect with people
             or groups. Whether it’s personal, professional, your teammates or
             your workmates, free messaging is all part of the Classified App
             service! As a single application that bundles so many previously
