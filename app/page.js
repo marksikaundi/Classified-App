@@ -107,7 +107,7 @@ export default function Home() {
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <BiSolidMessageRounded size={60} />
               </p>
-              <a href="" className="flex justify-center md:mt-5 mt-3">
+              <a href="/messaging" className="flex justify-center md:mt-5 mt-3">
                 MESSAGING
               </a>
             </div>
