@@ -19,10 +19,10 @@ export default function Workers() {
           WORKERS
         </h1>
         <p className="flex justify-center text-center text-[#6D6E71]">
-          WorkApp is the perfect tool to find a job or casual work at no cost.
+          ClasifiedApp  is the perfect tool to find a job or casual work at no cost.
           Create a Worker Profile with your name, a description of your awesome
           abilities and your contact details. You can list individual skills,
-          add a photo and even upload your resume directly to WorkApp. It only
+          add a photo and even upload your resume directly to ClasifiedApp . It only
           takes 10 seconds to refresh your profile every day so potential
           employers can find you, both locally and globally. Once you’re
           working, simply put your profile on hold until you’re next available
@@ -37,7 +37,7 @@ export default function Workers() {
           <div className="space-y-3 text-center">
             <h1 className="text-2xl">PERSON</h1>
             <p>
-              WorkApp allows you to create multiple Worker Profiles for
+              ClasifiedApp  allows you to create multiple Worker Profiles for
               different skills and vocations.
             </p>
           </div>
