@@ -18,8 +18,10 @@ function Navbar() {
     { id: 5, text: "Classifieds", href: "/classifieds" },
     { id: 6, text: "Community & Events", href: "/events" },
     { id: 7, text: "Messaging", href: "/messaging" },
+    { id: 7, text: "Messaging", href: "/messaging" },
+    { id: 9, text: "What's Fresh", href: "/whats-fresh" },
     { id: 8, text: "About Us", href: "/about" },
-    { id: 9, text: "Our Services", href: "/services" },
+    { id: 9, text: "Blog", href: "/blog" },
     // Add more navigation links as needed
   ];
 
