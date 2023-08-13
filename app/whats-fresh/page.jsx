@@ -12,13 +12,13 @@ export default function Whatsfresh() {
       </div>
       <div className="flex flex-col py-5">
         <h1 className="flex justify-center text-center text-[#2B3C96] md:text-3xl font-bold text-xl md:py-10 py-5">
-          WHAT’S FRESH IN CLASIFIEDAPP
+          WHAT’S FRESH IN CLASIFIED APP
         </h1>
         <div className="flex justify-center mx-3 flex-col md:flex-row md:space-y-0 space-y-5 md:space-x-10 md:py-5">
           <div className="border-none h-auto w-auto md:w-60 p-3 text-center space-y-3 rounded-lg bg-[#F1F2F2]">
             <h1 className="text-[#6D6E71] text-base font-bold">What is it?</h1>
             <p className="text-[#6D709A]">
-              What’s Fresh in ClasifiedApp  showcases listings from across the
+              What’s Fresh in Clasified App  showcases listings from across the
               Globe in each users Home page and you have total control of how
               often you feature.
             </p>
@@ -49,7 +49,7 @@ export default function Whatsfresh() {
             </h1>
             <p className="text-[#6D709A]">
               It’s FREE. Unlike others who charge to boost your listings,
-              ClasifiedApp  is totally free and you have total control of how often
+              Clasified App  is totally free and you have total control of how often
               you boost your listings
             </p>
           </div>

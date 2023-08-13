@@ -15,11 +15,11 @@ function page() {
         <div className='grid grid-rows-1 text-[#747474] w-4/5 items-center'>
           <h1 className='font-bold text-xl text-center'>JOBS</h1>
           <p className='md:w-2/4 lg:w-4/5 text-center m-auto mb-8 leading-normal'>
-            WorkApp is your own free jobs agency, connecting employers and workers in real time. <br />
+          Classified App is your own free jobs agency, connecting employers and workers in real time. <br />
             Small and large businesses alike can list vacancies in just a few minutes <br />
             or search Worker Profiles to instantly find the right person for a job.
             Workers can advertise their skills and availability at zero cost.
-            WorkApp’s innovative refresh technology means your search will always produce the latest <br />
+            Classified App innovative refresh technology means your search will always produce the latest <br />
             and most relevant listings. Our integrated messaging function makes it simple and easy to get in touch and get going!
           </p>
         </div>
@@ -32,7 +32,7 @@ function page() {
               </h1>
               <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
                 Create unlimited profiles to showcase your skills and services to potential employers.
-                Refresh your profile at least once a day to stay front and centre on WorkApp.
+                Refresh your profile at least once a day to stay front and centre on Classified App.
               </p>
             </div>
             <div className='text-center py-5 mx-5'>
@@ -42,7 +42,7 @@ function page() {
               <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
                 Whether you have a short-term or long-term position to fill,
                 simply post your vacancy and wait for applications to roll in.
-                You can also post whole Tenders on WorkApp.
+                You can also post whole Tenders on Classified App.
               </p>
             </div>
           </div>
@@ -55,11 +55,11 @@ function page() {
               </div>
               <div className='text-center py-5'>
                 <h1 className='font-bold text-2xl mb-8'>
-                  From the Fans: 10 reasons why you should use WorkApp
+                  From the Fans: 10 reasons why you should use Classified App
                 </h1>
                 <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
                   One of our delighted fans in Romania, Andrada Anitei,
-                  recently posted an article in LinkedIn and a blog on her website about WorkApp.
+                  recently posted an article in LinkedIn and a blog on her website about Classified App.
                   We love it when people around the globe get real value from [...]
                 </p>
               </div>
@@ -96,7 +96,7 @@ function page() {
         <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/job_bg.jpg')] md:h-96 h-60 flex justify-end bg-cover bg-center">
         <div className="absolute flex justify-center items-center md:mt-14 mt-5 mr-20 md:mr-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
             <h1 className="my-5 mx-5">
-                <div className='text-[#2b3c96]'>WORKAPP</div> <br></br> A World Of opportunity in your palm
+                <div className='text-[#2b3c96]'>CLASSIFIED APP</div> <br></br> A World Of opportunity in your palm
             </h1>
         </div>
       </div>

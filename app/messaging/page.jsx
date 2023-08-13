@@ -53,7 +53,7 @@ export default function Messaging() {
                   </li>
                   <li className="flex">
                     <TiTick size={35} className="text-[#2667CC]" />
-                    Fully integrated with WorkApps rich features
+                    Fully integrated with Classified App rich features
                   </li>
                 </ul>
               </div>
@@ -77,11 +77,11 @@ export default function Messaging() {
                   href=""
                   className="text-[#333333] hover:text-[#479DE2] md:text-xl"
                 >
-                  WorkApp is an Integrated, Interactive Messaging App too
+                  Classified App is an Integrated, Interactive Messaging App too
                 </a>
                 <p className="text-[#747489] text-center">
-                  Workapp Is an Interactive, Integrated Global Messaging App too
-                  WorkApp is an application that has been created for use
+                  Classified App Is an Interactive, Integrated Global Messaging App too
+                  Classified App is an application that has been created for use
                   world-wide. The app was designed in Australia and launched in
                   April it has a growing fan [...]
                 </p>
@@ -101,10 +101,10 @@ export default function Messaging() {
                   href=""
                   className="text-[#333333] hover:text-[#479DE2] md:text-xl"
                 >
-                  WorkApp Messaging integrates with Business and Classifieds
+                  Classified App Messaging integrates with Business and Classifieds
                 </a>
                 <p className="text-[#747489]">
-                  WorkApp Messaging Integrates with Business and Classifieds
+                  Classified App Messaging Integrates with Business and Classifieds
                   Online instant messaging has become the most efficient and
                   highly preferred method of communication. Since the launch of
                   online messengers and social media apps, no one wants to [...]

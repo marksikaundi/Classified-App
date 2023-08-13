@@ -111,7 +111,7 @@ export default function Classified() {
               href=""
               className="text-[#333333] hover:text-[#479DE2] md:text-xl"
             >
-              WorkApp Revolutionises Classified advertising online
+              Classified App Revolutionises Classified advertising online
             </a>
             <p className="text-[#747489]">
               The Evolution of Classifieds from Print to Digital If there’s one

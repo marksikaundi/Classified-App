@@ -84,7 +84,7 @@ export default function Workers() {
               posted an article in LinkedIn and a blog on her website about
               Classified App. We love it when people around the globe get real
               value from our platform. You can check their website out here. You
-              have probably seen me promoting AND using this new-edge platform
+              have probably seen me promoting and using this new-edge platform
               for almost [...]
             </p>
             <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
