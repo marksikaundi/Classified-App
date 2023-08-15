@@ -16,7 +16,7 @@ function Navbar() {
     { id: 3, text: "Workers", href: "/workers" },
     { id: 4, text: "jobs", href: "/jobs" },
     { id: 5, text: "Classifieds", href: "/classifieds" },
-    { id: 6, text: "Community & Events", href: "/events" },
+    { id: 6, text: "Community & Events", href: "/community-events" },
     { id: 7, text: "Messaging", href: "/messaging" },
     { id: 8, text: "What's Fresh", href: "/whats-fresh" },
     { id: 9, text: "About Us", href: "/about" },

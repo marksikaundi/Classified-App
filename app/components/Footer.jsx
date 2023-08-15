@@ -66,7 +66,7 @@ function Footer() {
             © 2023 Classified App. All rights reserved.
           </div>
           <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-2 md:mr-10 mr-5 ml-5 space-y-3 space-x-3">
-            <a href="">Contact Us</a>
+            <a href="/contact-us">Contact Us</a>
             <a href="">About Us</a>
             <a href="">Corporate Website</a>
             <a href="">FAQs</a>
