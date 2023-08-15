@@ -18,7 +18,7 @@ export default function About() {
     {
       id: 1,
       name: "Ann, Graceville Bike Shop - Brisbane, Australia",
-      text:`“I was looking for a casual job as a cleaner for a few months when a friend told me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
+      text:`“I was looking for a casual job as a cleaner for a few months when a friend informed me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
       Image: 'https://media.istockphoto.com/id/1310814041/photo/portrait-of-a-businesswoman-standing-in-a-a-modern-office.jpg?s=612x612&w=0&k=20&c=rLDYEGaGfbFq6mJPLc2FHjc6KBKyJETu38y4a3x11cM='
     },
     {
