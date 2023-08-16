@@ -69,10 +69,10 @@ function Footer() {
             <a href="/contact-us">Contact Us</a>
             <a href="">About Us</a>
             <a href="">Corporate Website</a>
+            <a href="privacy-policy">Privacy Policy</a>
+            <a href="/cookies-policy">Cookies Policy</a>
             <a href="/faqs">FAQs</a>
-            <a href="">Privacy Policy</a>
-            <a href="/termsandconditions">Terms and Conditions</a>
-            <a href="">Cookies Policy</a>
+            <a href="/terms-conditions">Terms and Conditions</a>
           </div>
         </div>
       </div>
