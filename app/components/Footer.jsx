@@ -72,7 +72,7 @@ function Footer() {
             <a href="">FAQs</a>
             <a href="">Privacy Policy</a>
             <a href="">Terms and Conditions</a>
-            <a href="">Cookies Policy</a>
+            <a href="/cookies-policy">Cookies Policy</a>
           </div>
         </div>
       </div>
