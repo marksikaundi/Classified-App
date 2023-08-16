@@ -50,7 +50,7 @@ function Cookies() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4. Why does WorkApp use cookies?</h1> <br />
+                    <h1>4. Why does Classified App use cookies?</h1> <br />
                     <p>
                     By storing and using information about your use of our website,
                     including preferences and habits, we are able to make your visit to our website
