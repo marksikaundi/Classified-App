@@ -2,6 +2,20 @@
 
 import React, { useState, useEffect } from "react";
 import Panel from "../components/Panel";
+const testimonials = [
+  {
+    id: 1,
+    name: "Ann, Graceville Bike Shop - Brisbane, Australia",
+    text:`“I was looking for a casual job as a cleaner for a few months when a friend informed me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
+    Image: 'https://media.istockphoto.com/id/1310814041/photo/portrait-of-a-businesswoman-standing-in-a-a-modern-office.jpg?s=612x612&w=0&k=20&c=rLDYEGaGfbFq6mJPLc2FHjc6KBKyJETu38y4a3x11cM='
+  },
+  {
+    id: 2,
+    name: "Mikey, Tattoos at Mates Rates - Gold Coast, Australia",
+    text: `“I downloaded WorkApp today and created my business profile, complete with portfolio of my work . Within five hours I received an enquiry and my first tattoo client from WorkApp. Since WorkApp doesn’t charge any fees or commissions, it didn’t cost me a cent to make money today. Thank you WorkApp.”`,
+    Image: 'https://corporate.workapp.world/wp-content/uploads/2016/04/kingoo.png'
+  },
+];
 
 export default function About() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,21 +27,6 @@ export default function About() {
 
     return () => clearInterval(interval);
   }, []);
-
-  const testimonials = [
-    {
-      id: 1,
-      name: "Ann, Graceville Bike Shop - Brisbane, Australia",
-      text:`“I was looking for a casual job as a cleaner for a few months when a friend informed me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
-      Image: 'https://media.istockphoto.com/id/1310814041/photo/portrait-of-a-businesswoman-standing-in-a-a-modern-office.jpg?s=612x612&w=0&k=20&c=rLDYEGaGfbFq6mJPLc2FHjc6KBKyJETu38y4a3x11cM='
-    },
-    {
-      id: 2,
-      name: "Mikey, Tattoos at Mates Rates - Gold Coast, Australia",
-      text: `“I downloaded WorkApp today and created my business profile, complete with portfolio of my work . Within five hours I received an enquiry and my first tattoo client from WorkApp. Since WorkApp doesn’t charge any fees or commissions, it didn’t cost me a cent to make money today. Thank you WorkApp.”`,
-      Image: 'https://corporate.workapp.world/wp-content/uploads/2016/04/kingoo.png'
-    },
-  ];
 
   return (
     <div className="min-h-screen mx-auto">

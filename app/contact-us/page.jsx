@@ -55,7 +55,7 @@ export default function Contact() {
           <div className="flex flex-col mt-8">
             <p className="">Comments*</p>
             <div className="border-2 border-[#D2D2D2] shadow-lg rounded-lg">
-              <input name="message" className="w-full h-40"></input>
+              <input rows="6" name="message" className="w-full h-40"></input>
             </div>
           </div>
           <div className="flex mt-8">
