@@ -52,7 +52,7 @@ function Footer() {
             <a href="/wanted">Wanted</a>
           </li>
           <li>
-            <a href="/rd">RV</a>
+            <a href="/site-map">Site Map</a>
           </li>
           <li>
             <a href="/find-people">Find People</a>
