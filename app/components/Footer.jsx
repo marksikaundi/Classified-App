@@ -18,7 +18,6 @@ function Footer() {
             <TiSocialInstagram size={25} className="m-1.5"/>
           </div>
         </div>
-        <div></div>
       </div>
       <div className="inline-block md:flex flex-wrap justify-center text-xs md:text-sm lg:text-base md:mt-5 mt-3 md:mb-8 mb-3 space-y-3">
         <ul className="flex flex-row flex-wrap justify-center space-y-3 space-x-3">
@@ -29,34 +28,34 @@ function Footer() {
             <a href="/business">Business</a>
           </li>
           <li>
-            <a href="">Workers</a>
+            <a href="/workers">Workers</a>
           </li>
           <li>
-            <a href="">Real Estate</a>
+            <a href="/real-estate">Real Estate</a>
           </li>
           <li>
-            <a href="">Jobs</a>
+            <a href="/jobs">Jobs</a>
           </li>
           <li>
-            <a href="">Auto</a>
+            <a href="/auto">Auto</a>
           </li>
           <li>
-            <a href="">Community</a>
+            <a href="/community">Community</a>
           </li>
           <li>
-            <a href="">Events</a>
+            <a href="/events">Events</a>
           </li>
           <li>
             <a href="/classifieds">Classifieds</a>
           </li>
           <li>
-            <a href="">Wanted</a>
+            <a href="/wanted">Wanted</a>
           </li>
           <li>
-            <a href="">RV</a>
+            <a href="/rd">RV</a>
           </li>
           <li>
-            <a href="">Find People</a>
+            <a href="/find-people">Find People</a>
           </li>
         </ul>
       </div>
@@ -67,9 +66,9 @@ function Footer() {
           </div>
           <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-2 md:mr-10 mr-5 ml-5 space-y-3 space-x-3">
             <a href="/contact-us">Contact Us</a>
-            <a href="">About Us</a>
-            <a href="">Corporate Website</a>
-            <a href="privacy-policy">Privacy Policy</a>
+            <a href="/about">About Us</a>
+            <a href="/corporate">Corporate Website</a>
+            <a href="/privacy-policy">Privacy Policy</a>
             <a href="/cookies-policy">Cookies Policy</a>
             <a href="/faqs">FAQs</a>
             <a href="/terms-conditions">Terms and Conditions</a>
