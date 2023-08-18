@@ -127,7 +127,7 @@ export default function About() {
             />
           </div>
         </div>
-        <div className="md:py-5 py-3 bg-zinc-200">
+        <div className="md:py-4 py-3 bg-zinc-200">
         <h1 className="flex justify-center text-[#2B3C96] md:text-3xl text-base">
           QUESTIONS?
         </h1>
