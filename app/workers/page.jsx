@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { PiArrowBendDoubleUpRight } from "react-icons/pi";
 
@@ -7,7 +8,7 @@ export default function Workers() {
 
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/worker_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
+      <div className="bg-[url('/assets/worker_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
         <div className="absolute my-5 md:my-16 left-10 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             LABOUR FOR HIRE AND PROFESSIONAL WORKERS
@@ -67,10 +68,12 @@ export default function Workers() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-3 md:w-full w-auto">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/03/andrad-2.jpg"
+              <Image
+                src="/assets/classified2.jpg"
                 alt="..."
                 className="h-40 w-auto md:w-full"
+                width={200}
+                height={40}
               />
             </p>
             <a
@@ -93,10 +96,12 @@ export default function Workers() {
           </div>
           <div className="space-y-5 md:w-full w-auto">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/worker2.jpg"
+              <Image
+                src="/assets/worker2.jpg"
                 alt="..."
                 className="h-40 w-auto md:w-full"
+                height={40}
+                width={200}
               />
             </p>
             <a

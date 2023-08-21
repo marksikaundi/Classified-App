@@ -18,14 +18,14 @@ const testimonials = [
   {
     id: 1,
     name: "John Doe",
-    text: `“I was looking for a casual job as a cleaner for a few months when a friend told me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
+    text: `“I was looking for a casual job as a cleaner for a few months when a friend told me to create a Worker Profile on Classified App. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through Classified App Messaging and got the job I was looking for.”`,
   },
   {
     id: 2,
     name: "Jane Smith",
-    text: `“I posted a Job Vacancy on WorkApp for a bike technician and had an enquiry through WorkApp Messaging – the same day.
-    Found a great worker and very happy with the result. WorkApp worked awesomely for me!
-    Next is to use WorkApp to sell my bikes. Thanks WorkApp.”`,
+    text: `“I posted a Job Vacancy on Classified App for a bike technician and had an enquiry through Classified App Messaging - the same day.
+    Found a great worker and very happy with the result. Classified App worked awesomely for me!
+    Next is to use Classified App to sell my bikes. Thanks Classified App.”`,
   },
 ];
 
@@ -48,7 +48,7 @@ export default function Home() {
           KEY FEATURES
         </h1>
         <div className="flex flex-row flex-wrap justify-center md:mt-4 mt-2 md:text-xl text-base">
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature1.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
+          <div className="bg-[url('/assets/feature1.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
             <p className="flex justify-center md:mt-5 mt-3">
               <BiSolidBriefcase size={60} />
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
             />
             </span>
           </div>
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature2.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+          <div className="bg-[url('/assets/feature2.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
               <GrUserWorker size={60} />
             </p>
@@ -67,7 +67,7 @@ export default function Home() {
               WORKERS
             </a>
           </div>
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature3.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+          <div className="bg-[url('/assets/feature3.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
               <SiJoplin size={56} />
             </p>
@@ -75,7 +75,7 @@ export default function Home() {
               JOBS
             </a>
           </div>
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature4.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+          <div className="bg-[url('/assets/feature4.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
               <PiListMagnifyingGlassFill size={60} />
             </p>
@@ -87,7 +87,7 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-row flex-wrap justify-center lg:mt-0 md:mt-4 mt-2">
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature6.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
+            <div className="bg-[url('/assets/feature6.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
               <p className="flex justify-center md:mt-5 mt-3">
                 <FaPeopleLine size={60} />
               </p>
@@ -95,7 +95,7 @@ export default function Home() {
                 COMMUNITY
               </a>
             </div>
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature7.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+            <div className="bg-[url('/assets/feature7.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <BsCalendar3EventFill size={54} />
               </p>
@@ -103,7 +103,7 @@ export default function Home() {
                 EVENTS
               </a>
             </div>
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature8.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+            <div className="bg-[url('/assets/feature8.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <BiSolidMessageRounded size={60} />
               </p>
@@ -111,7 +111,7 @@ export default function Home() {
                 MESSAGING
               </a>
             </div>
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2017/04/Whats-Fresh.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+            <div className="bg-[url('/assets/Whats-Fresh.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <PiClockClockwiseFill size={60} />
               </p>
@@ -122,12 +122,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2017/08/workapp_bg.jpg')] md:py-5 py-3">
+      <div className="bg-[url('/assets/workapp_bg.jpg')] md:py-5 py-3">
         <h1 className="flex justify-center md:text-2xl text-base">
           WHY CLASSIFIED APP
         </h1>
         <p className="flex justify-center text-center md:mt-2">
-          WorkApp combines the most commonly used App functions<br></br>
+          Classified App combines the most commonly used App functions<br></br>
           into one simple and free application for businesses, individuals and
           community.
         </p>
@@ -137,7 +137,7 @@ export default function Home() {
               <PiDevicesFill size={80} className="md:m-2" />
             </p>
             <p className="mx-3 md:mx-2">
-              WorkApp eliminates the use of multiple apps and platforms.
+              Classified App eliminates the use of multiple apps and platforms.
               Everything you need is in one place and on all your devices.
             </p>
           </div>
@@ -147,7 +147,7 @@ export default function Home() {
             </p>
             <p className="mx-3 md:mx-2">
               Whether you are a worker or business, buying or selling,
-              organising an event, or sending a message, WorkApp is the answer.
+              organising an event, or sending a message, Classified App is the answer.
             </p>
           </div>
           <div className="flex-row border-none justify-center bg-gray-400 bg-opacity-25 rounded-lg py-3 md:h-60 h-auto md:w-80 w-auto mt-3 ml-6 lg:ml-10">
@@ -155,13 +155,13 @@ export default function Home() {
               <FaCoins size={60} className="m-4" />
             </p>
             <p className="mx-3 md:mx-2">
-              WorkApp has no upfront or hidden fees. You keep 100% of the
+              Classified App has no upfront or hidden fees. You keep 100% of the
               proceeds of any sale you make using our platform.
             </p>
           </div>
         </div>
       </div>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/testimonials.jpg')] md:py-5 py-3">
+      <div className="bg-[url('/assets/testimonials.jpg')] bg-cover md:py-5 py-3">
         <h1 className="flex justify-center text-[#333333] md:text-3xl text-xl">
           TESTIMONIALS
         </h1>
@@ -203,7 +203,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/questions_bg.jpg')] md:py-5 py-3">
+      <div className="bg-[url('/assets/testimonials.jpg')] md:py-5 py-3">
         <h1 className="flex justify-center text-[#2B3C96] md:text-3xl text-base">
           QUESTIONS?
         </h1>
@@ -211,19 +211,19 @@ export default function Home() {
           <div className="md:w-3/5 w-auto ">
             <Panel title="What is Classified App?">
               <p>
-                WorkApp is an integrated App designed for iOS, Android and Web
+                Classified App is an integrated App designed for iOS, Android and Web
                 Browsers that combines a<br></br> number of features to make it
                 easier and simpler for you to conduct business, communicate with
                 <br></br> people and actively engage with your local community.
-                WorkApp works for Businesses,<br></br> Communities and
+                Classified App works for Businesses,<br></br> Communities and
                 individuals alike and there are no fees, charges or commissions
-                payable. You<br></br> will have to see WorkApp to appreciate the
+                payable. You<br></br> will have to see Classified App to appreciate the
                 many benefits you can derive from this unique platform.
               </p>
             </Panel>
             <Panel title="Why is it different from other apps out there?">
               <p>
-                WorkApp is the only App globally that integrates a number of
+                Classified App is the only App globally that integrates a number of
                 functions into a single App.<br></br>Businesses can sell
                 product, advertise their business, list job vacancies and find
                 workers - all for<br></br> free. Individuals can find vacancies,
@@ -233,17 +233,17 @@ export default function Home() {
                 members, promote events and sell tickets. Overlaying all these
                 rich features is<br></br> a fully functional messaging platform
                 where you can chat with friends and family, send audio,<br></br>{" "}
-                video and photos. No other App currently does all that WorkApp
+                video and photos. No other App currently does all that Classified App
                 offers.
               </p>
             </Panel>
             <Panel title="Who can use Classified App?">
               <p>
-                WorkApp is available now for download Globally from App Store
+                Classified App is available now for download Globally from App Store
                 and Google’s Play Store.<br></br> Alternatively you get started
-                with the web version. WorkApp is a single App with features for
+                with the web version. Classified App is a single App with features for
                 <br></br> businesses and individuals alike. Enjoy using your
-                WorkApp.
+                Classified App.
               </p>
             </Panel>
           </div>
