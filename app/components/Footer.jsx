@@ -31,19 +31,10 @@ function Footer() {
             <a href="/workers">Workers</a>
           </li>
           <li>
-            <a href="/real-estate">Real Estate</a>
-          </li>
-          <li>
             <a href="/jobs">Jobs</a>
           </li>
           <li>
-            <a href="/auto">Auto</a>
-          </li>
-          <li>
             <a href="/community">Community</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
           </li>
           <li>
             <a href="/classifieds">Classifieds</a>
@@ -53,9 +44,6 @@ function Footer() {
           </li>
           <li>
             <a href="/site-map">Site Map</a>
-          </li>
-          <li>
-            <a href="/find-people">Find People</a>
           </li>
         </ul>
       </div>
@@ -67,7 +55,6 @@ function Footer() {
           <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-2 md:mr-10 mr-5 ml-5 space-y-3 space-x-3">
             <a href="/contact-us">Contact Us</a>
             <a href="/about">About Us</a>
-            <a href="/corporate">Corporate Website</a>
             <a href="/privacy-policy">Privacy Policy</a>
             <a href="/cookies-policy">Cookies Policy</a>
             <a href="/faqs">FAQs</a>
