@@ -24,8 +24,6 @@ const testimonials = [
     id: 2,
     name: "Jane Smith",
     text: `“I posted a Job Vacancy on Classified App for a bike technician and had an enquiry through Classified App Messaging - the same day.
-    Found a great worker and very happy with the result. Classified App worked awesomely for me!
-    Next is to use Classified App to sell my bikes. Thanks Classified App.”`,
   },
 ];
 
