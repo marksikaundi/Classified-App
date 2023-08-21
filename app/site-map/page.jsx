@@ -59,16 +59,6 @@ function page() {
           </li>
           <li>
             <a href="" className=" text-[#33334D] hover:text-[#079DE2]">
-              Home-iPhone
-            </a>
-          </li>
-          <li>
-            <a href="" className=" text-[#33334D] hover:text-[#079DE2]">
-              Home-Samsung
-            </a>
-          </li>
-          <li>
-            <a href="" className=" text-[#33334D] hover:text-[#079DE2]">
               How Classified App works
             </a>
           </li>
@@ -91,11 +81,6 @@ function page() {
               className=" text-[#33334D] hover:text-[#079DE2]"
             >
               Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="" className=" text-[#33334D] hover:text-[#079DE2]">
-              Promotion
             </a>
           </li>
           <li>
