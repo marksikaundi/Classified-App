@@ -17,15 +17,13 @@ import { FaRecycle, FaCoins } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    name: "John",
-    text: `“I was looking for a casual job as a cleaner for a few months when a friend told me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
+    name: "John Doe",
+    text: `“I was looking for a casual job as a cleaner for a few months when a friend told me to create a Worker Profile on Classified App. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through Classified App Messaging and got the job I was looking for.”`,
   },
   {
     id: 2,
     name: "Jane Smith",
-    text: `“I posted a Job Vacancy on Classified App for a bike technician and had an enquiry through Classified App Messaging – the same day.
-    Found a great worker and very happy with the result. Classified App worked awesomely for me!
-    Next is to use Classified App to sell my bikes. Thanks Classified App.”`,
+    text: `“I posted a Job Vacancy on Classified App for a bike technician and had an enquiry through Classified App Messaging - the same day.
   },
 ];
 
@@ -48,7 +46,7 @@ export default function Home() {
           KEY FEATURES
         </h1>
         <div className="flex flex-row flex-wrap justify-center md:mt-4 mt-2 md:text-xl text-base">
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature1.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
+          <div className="bg-[url('/assets/feature1.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
             <p className="flex justify-center md:mt-5 mt-3">
               <BiSolidBriefcase size={60} />
             </p>
@@ -59,7 +57,7 @@ export default function Home() {
             />
             </span>
           </div>
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature2.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+          <div className="bg-[url('/assets/feature2.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
               <GrUserWorker size={60} />
             </p>
@@ -67,7 +65,7 @@ export default function Home() {
               WORKERS
             </a>
           </div>
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature3.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+          <div className="bg-[url('/assets/feature3.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
               <SiJoplin size={56} />
             </p>
@@ -75,7 +73,7 @@ export default function Home() {
               JOBS
             </a>
           </div>
-          <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature4.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+          <div className="bg-[url('/assets/feature4.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
             <p className="flex justify-center md:mt-5 mt-3 ">
               <PiListMagnifyingGlassFill size={60} />
             </p>
@@ -87,7 +85,7 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-row flex-wrap justify-center lg:mt-0 md:mt-4 mt-2">
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature6.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
+            <div className="bg-[url('/assets/feature6.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center ">
               <p className="flex justify-center md:mt-5 mt-3">
                 <FaPeopleLine size={60} />
               </p>
@@ -95,7 +93,7 @@ export default function Home() {
                 COMMUNITY
               </a>
             </div>
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature7.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+            <div className="bg-[url('/assets/feature7.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <BsCalendar3EventFill size={54} />
               </p>
@@ -103,7 +101,7 @@ export default function Home() {
                 EVENTS
               </a>
             </div>
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/feature8.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+            <div className="bg-[url('/assets/feature8.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <BiSolidMessageRounded size={60} />
               </p>
@@ -111,7 +109,7 @@ export default function Home() {
                 MESSAGING
               </a>
             </div>
-            <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2017/04/Whats-Fresh.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
+            <div className="bg-[url('/assets/Whats-Fresh.png')] border rounded-lg h-40 w-60 md:mr-5 mr-3 md:mb-3 mb-2 text-center">
               <p className="flex justify-center md:mt-5 mt-3 ">
                 <PiClockClockwiseFill size={60} />
               </p>
@@ -122,7 +120,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2017/08/workapp_bg.jpg')] md:py-5 py-3">
+      <div className="bg-[url('/assets/workapp_bg.jpg')] md:py-5 py-3">
         <h1 className="flex justify-center md:text-2xl text-base">
           WHY CLASSIFIED APP
         </h1>
@@ -161,7 +159,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/testimonials.jpg')] md:py-5 py-3">
+      <div className="bg-[url('/assets/testimonials.jpg')] bg-cover md:py-5 py-3">
         <h1 className="flex justify-center text-[#333333] md:text-3xl text-xl">
           TESTIMONIALS
         </h1>
@@ -203,7 +201,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/questions_bg.jpg')] md:py-5 py-3">
+      <div className="bg-[url('/assets/testimonials.jpg')] md:py-5 py-3">
         <h1 className="flex justify-center text-[#2B3C96] md:text-3xl text-base">
           QUESTIONS?
         </h1>
