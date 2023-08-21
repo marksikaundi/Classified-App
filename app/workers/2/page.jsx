@@ -7,7 +7,7 @@ export default function Page() {
 
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/worker_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
+      <div className="bg-[url('/assets/worker_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
         <div className="absolute my-5 md:my-16 left-10 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             LABOUR FOR HIRE AND PROFESSIONAL WORKERS

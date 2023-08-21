@@ -1,11 +1,12 @@
 "use client";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { GrNext, GrPrevious } from "react-icons/gr";
 
 const images = [
-  "https://corporate.workapp.world/wp-content/uploads/2016/04/banners-4.jpg",
-  "https://corporate.workapp.world/wp-content/uploads/2017/08/slider.jpg",
-  "https://corporate.workapp.world/wp-content/uploads/2017/08/banners-7.jpg",
+  "/assets/classified1.jpg",
+  "/assets/slider.jpg",
+  "/assets/banners-7.jpg",
 ];
 
 const ImageCarousel = () => {
@@ -33,20 +34,17 @@ const ImageCarousel = () => {
 
   return (
     <div className="relative items-center justify-center">
-      <img
+      <Image
         src={images[currentIndex]}
         alt={`Slide ${currentIndex}`}
         className="w-full"
+        height={300}
+        width={500}
+       
       />
       <div className="bg-gradient-to-r from-gray-500 absolute md:h-60 h-20 left-0 bottom-0 text-white font-bold md:text-3xl text-sm block">
         <h1 className="md:pt-6 pt-3 md:ml-20 ml-10">BUY, SELL,</h1>
         <p className="md:ml-20 ml-10">RENT or SWAP</p>
-        <div className="md:ml-20 ml-10 md:pt-14 hidden md:flex">
-          <img
-            src="https://corporate.workapp.world/wp-content/uploads/2017/08/workapp_btn.png"
-            alt="..."
-          />
-        </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex justify-center space-x-2 mt-4">
         {images.map((_, index) => (
