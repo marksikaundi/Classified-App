@@ -46,7 +46,7 @@ function Navbar() {
       {/* mobile button */}
       <div
         onClick={handleNav}
-        className="absolute text-white right-0 top-0 mr-5 mt-5 sm:hidden z-10"
+        className="absolute right-0 pt-4 mr-4 text-white sm:hidden z-10"
       >
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
@@ -54,11 +54,11 @@ function Navbar() {
       <div
         className={
           nav
-            ? "md:hidden absolute z-10 left-0 right-0 top-24 h-80 bottom-0 w-full bg-gray-200 items-center duration-300"
-            : "md:hidden absolute z-10 top-[-100%] right-0 h-80 bottom-0 w-full bg-gray-200 flex justify-center items-center duration-300"
+            ? "md:hidden absolute z-10 left-0 right-0 top-64 h-80 bottom-0 w-full bg-gray-200 items-center duration-300"
+            : "md:hidden absolute z-10 left-[-100%] top-64 right-0 h-80 bottom-0 w-full bg-gray-200 flex justify-center items-center duration-300"
         }
       >
-        <ul className="bg-[#2b3c96] text-white p-10 absolute top-0 right-0 w-full">
+        <ul className="bg-[#2b3c96] text-center text-white p-10 absolute top-0 right-0 w-full">
           <nav className="block text-sm items-center">
             {navigationLinks.map((link) => (
               <Link key={link.id} href={link.href}>
