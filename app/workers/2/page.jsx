@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { PiArrowBendDoubleUpRight } from "react-icons/pi";
 
@@ -67,8 +68,8 @@ export default function Page() {
         <div className="flex md:flex-row flex-col justify-start space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-3 md:w-1/2 w-auto text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/worker1.jpg"
+              <Image
+                src="/assets/worker1.jpg"
                 alt="..."
                 className="h-40 w-auto md:w-4/5"
               />

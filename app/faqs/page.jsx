@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 import Panel from "../components/Panel";
 
 export default function Faqs() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://workapp.world/v2_assets/slider/faq.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60"></div>
+      <div className="bg-[url('/assets/faq.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60"></div>
       <div className="flex flex-row md:mx-20 mx-auto">
         <div className="md:w-4/5 lg:w-1/2 py-14">
           <h1 className="text-[#2B3C96] text-2xl font-bold border-b-2 flex justify-center md:justify-end">
@@ -164,9 +165,11 @@ export default function Faqs() {
           </div>
         </div>
         <div className="hidden md:flex">
-          <img
-            src="https://workapp.world/v2_assets/imgs/faq-bg.png"
+          <Image
+            src="/assets/faq-bg.png"
             alt="..."
+            height={300}
+            width={500}
           />
         </div>
       </div>

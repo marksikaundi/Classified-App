@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Classified() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/classified_bg.jpg')] md:h-96 h-60">
+      <div className="bg-[url('/assets/classified_bg.jpg')] bg-cover md:h-96 h-60">
         <div className="absolute mt-14 right-10 md:right-20 bg-gray-500 border-none bg-opacity-50 md:h-40 h-20 md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             BUY, SELL,<br></br> RENT or SWAP
@@ -47,10 +48,12 @@ export default function Classified() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/03/andrad-2.jpg"
+              <Image
+                src="/assets/classified2.jpg"
                 alt="..."
                 className="h-40 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -73,10 +76,12 @@ export default function Classified() {
           </div>
           <div className="space-y-3">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/02/shane-1-feature.jpg"
+              <Image
+                src="/assets/shane-1-feature.jpg"
                 alt="..."
                 className="h-40 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -101,10 +106,12 @@ export default function Classified() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10 my-5">
           <div className="space-y-3">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/classified1.jpg"
+              <Image
+                src="/assets/classified1.jpg"
                 alt="..."
                 className="h-40 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -127,10 +134,12 @@ export default function Classified() {
           </div>
           <div className="space-y-3">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/classified2.jpg"
+              <Image
+                src="/assets/classified2.jpg"
                 alt="..."
                 className="h-40 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a

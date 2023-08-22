@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 import { TiTick } from "react-icons/ti";
 
 export default function Messaging() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/messaging_slider.jpg')] md:h-96 h-60">
+      <div className="bg-[url('/assets/messaging_slider.jpg')] md:h-96 h-60">
         <div className="absolute mt-10 md:mt-40 right-10 md:right-20 mx-10 text-[#000000] md:text-5xl text-xl">
           <h1 className="my-3 mx-5 font-bold ">Simple Personal</h1>
           <p className="mx-5 text-4xl">Real Time Messaging</p>
@@ -67,10 +68,12 @@ export default function Messaging() {
             <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-8 md:space-y-0 ">
               <div className="space-y-3 text-center">
                 <p className="md:mb-6 mb-2">
-                  <img
-                    src="https://corporate.workapp.world/wp-content/uploads/2016/04/message1.jpg"
+                  <Image
+                    src="/assets/message1.jpg"
                     alt="..."
                     className="h-40 w-96"
+                    height={40}
+                    width={500}
                   />
                 </p>
                 <a
@@ -91,10 +94,12 @@ export default function Messaging() {
               </div>
               <div className="space-y-3 lg:space-y-5 text-center">
                 <p className="md:mb-6 mb-2">
-                  <img
-                    src="https://corporate.workapp.world/wp-content/uploads/2016/04/messaging.jpg"
+                  <Image
+                    src="/assets/messaging.jpg"
                     alt="..."
                     className="h-40 w-96"
+                    height={40}
+                    width={500}
                   />
                 </p>
                 <a
