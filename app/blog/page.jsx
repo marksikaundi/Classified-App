@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
 function page() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/blog.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
+      <div className="bg-[url('/assets/blog.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
         <div className="absolute mt-14 hidden md:flex right-10 md:right-20 bg-gray-500 border-none bg-opacity-50 md:h-40 h-20 md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             BROWSE OUR BLOGS<br></br> FOR INSPIRATION
@@ -35,10 +36,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/04/shane-article.jpg"
+              <Image
+                src="/assets/shane-article.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -57,10 +60,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/03/12.png"
+              <Image
+                src="/assets/12.png"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -82,10 +87,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/03/mortgAGE.jpg"
+              <Image
+                src="/assets/mortgAGE.jpg"
                 alt="..."
-                className="h-40 md:w-4/5 w-96"
+                className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -105,10 +112,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/03/andrad-2.jpg"
+              <Image
+                src="/assets/classified2.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -130,10 +139,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/02/andrada-1.jpg"
+              <Image
+                src="/assets/andrada-1.jpg"
                 alt="..."
                 className="h-40 md:w-4/5 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -153,10 +164,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/02/shane-2-feature.png"
+              <Image
+                src="/assets/shane-2-feature.png"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -178,10 +191,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/02/shane-1-feature.jpg"
+              <Image
+                src="/assets/shane-1-feature.jpg"
                 alt="..."
                 className="h-40 md:w-4/5 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -201,10 +216,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/classified1.jpg"
+              <Image
+                src="/assets/classified1.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -226,10 +243,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/business3.jpg"
+              <Image
+                src="/assets/business3.jpg"
                 alt="..."
                 className="h-40 md:w-4/5 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -249,10 +268,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/business2.jpg"
+              <Image
+                src="/assets/business2.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -274,10 +295,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/charity_fund.jpg"
+              <Image
+                src="/assets/charity_fund.jpg"
                 alt="..."
                 className="h-40 md:w-4/5 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -297,10 +320,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/eve2.jpg"
+              <Image
+                src="/assets/eve2.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -322,10 +347,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/message1.jpg"
+              <Image
+                src="/assets/message1.jpg"
                 alt="..."
                 className="h-40 md:w-4/5 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -345,10 +372,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/classified2.jpg"
+              <Image
+                src="/assets/classified2.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -370,10 +399,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-20 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/jobs.jpg"
+              <Image
+                src="/assets/job_bg.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -393,10 +424,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/messaging.jpg"
+              <Image
+                src="/assets/messaging.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -418,10 +451,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/worker2.jpg"
+              <Image
+                src="/assets/worker2.jpg"
                 alt="..."
                 className="h-40 md:w-4/5 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -441,10 +476,12 @@ function page() {
           </div>
           <div className="space-y-3 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/classified1.jpg"
+              <Image
+                src="/assets/classified1.jpg"
                 alt="..."
                 className="h-40 md:w-full w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -466,10 +503,12 @@ function page() {
         <div className="flex md:flex-row flex-col justify-start md:space-x-3 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2016/04/worker1.jpg"
+              <Image
+                src="/assets/worker1.jpg"
                 alt="..."
                 className="h-40 md:w-1/2 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a

@@ -4,7 +4,7 @@ import { ImMail4 } from "react-icons/im";
 export default function Contact() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/contact_us_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
+      <div className="bg-[url('/assets/contact_us_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
         <div className="absolute mt-14 left-10 md:left-20 bg-gray-500 border-none bg-opacity-50 md:h-40 h-20 md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             WE&apos;D LOVE TO<br></br> HEAR FROM YOU
