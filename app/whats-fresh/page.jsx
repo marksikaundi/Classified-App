@@ -3,7 +3,7 @@ import React from "react";
 export default function Whatsfresh() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2017/04/whats_fresh.jpg')] md:h-96 h-60">
+      <div className="bg-[url('/assets/whats_fresh.jpg')] md:h-96 h-60">
         <div className="absolute my-5 md:my-14 left-10 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             5 SECONDS TO REFRESH YOUR LISTINGS AND BOOST IN SEARCH RESULTS

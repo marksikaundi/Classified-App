@@ -4,7 +4,7 @@ import Image from 'next/image'
 function page() {
   return (
     <div className='min-h-screen mx-auto'>
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/job_bg.jpg')] md:h-96 h-60 flex justify-end bg-cover bg-center">
+      <div className="bg-[url('/assets/job_bg.jpg')] md:h-96 h-60 flex justify-end bg-cover bg-center">
         <div className="absolute flex justify-center items-center md:mt-14 mt-5 mr-20 md:mr-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
             <h1 className="my-5 mx-5">
                 LIST AND FIND<br></br> JOB VACANCIES
@@ -93,7 +93,7 @@ function page() {
             </div>
           </div>
         </div>
-        <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/job_bg.jpg')] md:h-96 h-60 flex justify-end bg-cover bg-center">
+        <div className="bg-[url('/assets/job_bg.jpg')] md:h-96 h-60 flex justify-end bg-cover bg-center">
         <div className="absolute flex justify-center items-center md:mt-14 mt-5 mr-20 md:mr-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
             <h1 className="my-5 mx-5">
                 <div className='text-[#2b3c96]'>CLASSIFIED APP</div> <br></br> A World Of opportunity in your palm

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { TiTick } from "react-icons/ti";
 const testimonials = [
@@ -29,7 +30,7 @@ export default function Businesses() {
 
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
-      <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2016/04/business_bg.jpg')] md:h-96 h-60">
+      <div className="bg-[url('/assets/business_bg.jpg')] md:h-96 h-60">
         <div className="absolute md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
           <h1 className="my-5 mx-5">
             LIST, PROMOTE AND<br></br> GROW YOUR BUSINESSES
@@ -130,10 +131,12 @@ export default function Businesses() {
         <div className="flex md:flex-row flex-col justify-center md:space-x-5 space-y-5 md:space-y-0 md:my-10">
           <div className="space-y-3">
             <p className="md:mb-5 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/04/shane-article.jpg"
+              <Image
+                src="/assets/shane-article.jpg"
                 alt="..."
                 className="h-40 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -153,10 +156,12 @@ export default function Businesses() {
           </div>
           <div className="space-y-3">
             <p className="md:mb-5 mb-2">
-              <img
-                src="https://corporate.workapp.world/wp-content/uploads/2019/03/12.png"
+              <Image
+                src="/assets/12.png"
                 alt="..."
                 className="h-40 w-96"
+                height={40}
+                width={300}
               />
             </p>
             <a
@@ -178,7 +183,7 @@ export default function Businesses() {
         </div>
       </div>
       <div className="bg-[#EFF0F2] flex md:flex-row flex-col">
-        <div className="bg-[url('https://corporate.workapp.world/wp-content/uploads/2017/04/business_iphns.png')] bg-no-repeat md:h-96 h-80 w-auto md:w-1/2"></div>
+        <div className="bg-[url('/assets/business_iphns.png')] bg-no-repeat md:h-96 h-80 w-auto md:w-1/2"></div>
         <div className="flex flex-col mx-10 my-10">
           <h1 className="text-[#6D6E71] md:text-3xl text-2xl">
             On-the-go and need<br></br> local Workers?
