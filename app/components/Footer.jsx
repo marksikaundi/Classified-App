@@ -31,19 +31,10 @@ function Footer() {
             <a href="/workers">Workers</a>
           </li>
           <li>
-            <a href="/real-estate">Real Estate</a>
-          </li>
-          <li>
             <a href="/jobs">Jobs</a>
           </li>
           <li>
-            <a href="/auto">Auto</a>
-          </li>
-          <li>
             <a href="/community">Community</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
           </li>
           <li>
             <a href="/classifieds">Classifieds</a>
@@ -54,20 +45,16 @@ function Footer() {
           <li>
             <a href="/site-map">Site Map</a>
           </li>
-          <li>
-            <a href="/find-people">Find People</a>
-          </li>
         </ul>
       </div>
       <div className="h-auto bg-[url('https://pcdn.piiojs.com/i/xp3dch/vw,1536,vh,0,r,1,pr,1.3,o,wp/www.workapp.world%2Fv3_assets%2Fimgs%2Ffooter_copyright.jpg')]">
         <div className="flex flex-row flex-wrap justify-center space-y-3 text-xs md:text-sm lg:text-base">
           <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-1 md:ml-10 space-x-3">
-            © 2023 Classified App. All rights reserved.
+            <span>&copy; {new Date().getFullYear()} Classified App. All rights reserved.</span>
           </div>
           <div className="inline-block md:mt-3 mt-3 md:mb-3 mb-2 md:mr-10 mr-5 ml-5 space-y-3 space-x-3">
             <a href="/contact-us">Contact Us</a>
             <a href="/about">About Us</a>
-            <a href="/corporate">Corporate Website</a>
             <a href="/privacy-policy">Privacy Policy</a>
             <a href="/cookies-policy">Cookies Policy</a>
             <a href="/faqs">FAQs</a>
