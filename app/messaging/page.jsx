@@ -12,11 +12,11 @@ export default function Messaging() {
         </div>
       </div>
       <div className="py-5">
-        <div className="flex flex-col md:space-y-10 space-y-5 mx-auto md:mx-10 lg:mx-40 md:mb-10">
-          <h1 className="flex justify-center text-3xl md:mt-5 text-[#6D6E71]">
+        <div className="flex flex-col md:space-y-10 space-y-5 text-black mx-auto md:mx-10 lg:mx-40 md:mb-10">
+          <h1 className="flex justify-center md:mt-5">
             MESSAGING
           </h1>
-          <p className="flex justify-center text-center text-[#6D6E71]">
+          <p className="flex justify-center text-center">
             ClassifiedApp is a brilliant way to instantly connect with people
             or groups. Whether it’s personal, professional, your teammates or
             your workmates, free messaging is all part of the Classified App
@@ -31,11 +31,11 @@ export default function Messaging() {
             <div className="flex flex-col md:flex-row space-x-20 py-3 px-5">
               <div className="flex flex-col ">
                 <h1 className="text-[#2B3C96] text-3xl">Why Classified App</h1>
-                <p className="mt-3 text-[#6D6E71]">
+                <p className="mt-3 text-black">
                   Free text, audio, video and image sharing with anyone,
                   anywhere!!
                 </p>
-                <ul className="text-[#6D6E71] my-5 space-y-2">
+                <ul className="text-black my-5 space-y-2">
                   <li className="flex">
                     <TiTick size={35} className="text-[#2667CC]" />
                     Real time chat with audio, video and image sharing
@@ -78,17 +78,17 @@ export default function Messaging() {
                 </p>
                 <a
                   href=""
-                  className="text-[#333333] hover:text-[#479DE2] md:text-xl"
+                  className="text-black hover:text-[#479DE2] md:text-xl"
                 >
                   Classified App is an Integrated, Interactive Messaging App too
                 </a>
-                <p className="text-[#747489] text-center">
+                <p className="text-black text-center">
                   Classified App Is an Interactive, Integrated Global Messaging App too
                   Classified App is an application that has been created for use
                   world-wide. The app was designed in Australia and launched in
                   April it has a growing fan [...]
                 </p>
-                <button className="md:ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+                <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
                   <p className="mx-8 my-2">Read More</p>
                 </button>
               </div>
@@ -104,17 +104,17 @@ export default function Messaging() {
                 </p>
                 <a
                   href=""
-                  className="text-[#333333] hover:text-[#479DE2] md:text-xl"
+                  className="text-black hover:text-[#479DE2] md:text-xl"
                 >
                   Classified App Messaging integrates with Business and Classifieds
                 </a>
-                <p className="text-[#747489]">
+                <p className="text-black">
                   Classified App Messaging Integrates with Business and Classifieds
                   Online instant messaging has become the most efficient and
                   highly preferred method of communication. Since the launch of
                   online messengers and social media apps, no one wants to [...]
                 </p>
-                <button className="md:ml-40 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+                <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
                   <p className="mx-8 my-2">Read More</p>
                 </button>
               </div>

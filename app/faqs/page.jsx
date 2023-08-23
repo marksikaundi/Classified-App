@@ -8,7 +8,7 @@ export default function Faqs() {
       <div className="bg-[url('/assets/faq.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60"></div>
       <div className="flex flex-row md:mx-20 mx-auto">
         <div className="md:w-4/5 lg:w-1/2 py-14">
-          <h1 className="text-[#2B3C96] text-2xl font-bold border-b-2 flex justify-center md:justify-end">
+          <h1 className="text-[#2B3C96] font-bold border-b-2 flex justify-center md:justify-end">
             QUESTIONS?
           </h1>
           <div className="flex flex-col py-5">

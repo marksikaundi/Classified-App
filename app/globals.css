@@ -1,4 +1,13 @@
 @tailwind base;
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+
+  p {
+    @apply text-base;
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
