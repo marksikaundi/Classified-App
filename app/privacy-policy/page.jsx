@@ -13,7 +13,7 @@ function Privacy() {
         <div>
             <div className='w-4/5 shadow-md h-auto m-auto mb-10'>
                 <div className='text-center text-white bg-slate-400 w-full h-16 mt-3 pt-3'>
-                    Privacy Policy
+                    <h1>Privacy Policy</h1>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto'>
                     <h1>1. Background</h1> <br />

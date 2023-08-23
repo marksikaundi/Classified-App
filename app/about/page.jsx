@@ -33,15 +33,15 @@ export default function About() {
     <div className="min-h-screen mx-auto">
       <div className="bg-[url('/assets/about-us.jpg')] md:h-96 h-60 flex justify-start bg-cover bg-center">
         <div className="absolute flex justify-center items-center md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
-            <h1 className="my-5 mx-5 text-2xl">
+            <h1 className="my-5 mx-5l">
                 BASED IN BRISBANE<br></br> AUSTRALIA
             </h1>
         </div>
       </div>
       <div className='flex justify-center py-5 bg-white md:h-auto'>
-        <div className='grid grid-rows-1 text-[#747474] w-4/5 items-center'>
-          <h1 className='text-2xl text-center'>ABOUT US</h1>
-          <p className='md:w-2/4 lg:w-4/5 text-sm text-center m-auto mb-8 leading-normal'>
+        <div className='grid grid-rows-1 text-black w-4/5 items-center'>
+          <h1 className='text-center'>ABOUT US</h1>
+          <p className='md:w-2/4 lg:w-4/5 text-center m-auto mb-8 leading-normal'>
             WorkApp is an exciting new way to connect people for a wide range of everyday personal <br />
             and professional activities – all in one place. Finally, a single application bundles many common functions <br />
             you may already use into one multi-device platform. And most importantly, WorkApp’s innovative ‘refresh’
@@ -51,12 +51,12 @@ export default function About() {
         </div>
       </div>
         <div className='flex justify-center md:h-1/2'>
-          <div className='text-[#747474] bg-slate-200 items-center md:grid grid-cols-2 gap-2'>
+          <div className='text-black bg-slate-200 items-center md:grid grid-cols-2 gap-2'>
             <div className='text-center py-5 mx-5'>
-              <h1 className='text-gray-700 text-2xl mb-8'>
+              <h1 className='text-black mb-8'>
                 OUR MISSION
               </h1>
-              <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal text-sm'>
+              <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
               We want to connect people for work, business and community needs on a truly level playing field.
               WorkApp rewards genuine effort by individuals and business owners.
               It takes the power to influence search away from those who can afford to pay and gives everyone
@@ -64,10 +64,10 @@ export default function About() {
               </p>
             </div>
             <div className='text-gray-700 text-center py-5 mx-5'>
-              <h1 className='text-2xl mb-8'>
+              <h1 className='mb-8'>
                 OUR VISION
               </h1>
-              <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal text-sm'>
+              <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
                 The WorkApp vision is to simplify and consolidate your use of mobile apps so you can focus on
                 growing your business and personal prosperity. We see a future where hardworking people can harness
                 all the power of the internet to create communities, conduct business and connect with each other – all
@@ -96,14 +96,15 @@ export default function About() {
                     <Image
                       src={testimonials[currentSlide].Image}
                       alt=''
-                      className=" h-auto max-w-lg"
+                      className=" h-60 max-w-lg w-auto mx-auto"
                       height={40}
                       width={300}
                     />
                   </div>
               </div>
             </div>
-            <div className="absolute bottom-0 w-full flex justify-center md:mb-5 lg:mb-10 space-x-2">
+          </div>
+          <div className="bottom-0 w-full flex justify-center mt-5 lg:mt-10 space-x-2">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
@@ -114,7 +115,6 @@ export default function About() {
                 ></button>
               ))}
             </div>
-          </div>
         </div>
         <div className="py-10 bg-slate-300">
           <h1 className="flex justify-center text-[#333333] md:text-3xl text-base">

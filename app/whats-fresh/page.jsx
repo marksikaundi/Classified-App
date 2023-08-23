@@ -11,43 +11,43 @@ export default function Whatsfresh() {
         </div>
       </div>
       <div className="flex flex-col py-5">
-        <h1 className="flex justify-center text-center text-[#2B3C96] md:text-3xl font-bold text-xl md:py-10 py-5">
-          WHAT’S FRESH IN CLASIFIED APP
+        <h1 className="flex justify-center text-center text-[#2B3C96] md:py-10 py-5">
+          WHAT’S FRESH IN CLASSIFIED APP
         </h1>
         <div className="flex justify-center mx-3 flex-col md:flex-row md:space-y-0 space-y-5 md:space-x-10 md:py-5">
           <div className="border-none h-auto w-auto md:w-60 p-3 text-center space-y-3 rounded-lg bg-[#F1F2F2]">
-            <h1 className="text-[#6D6E71] text-base font-bold">What is it?</h1>
-            <p className="text-[#6D709A]">
+            <h1 className="text-black text-base font-bold">What is it?</h1>
+            <p className="text-black">
               What’s Fresh in Clasified App  showcases listings from across the
               Globe in each users Home page and you have total control of how
               often you feature.
             </p>
           </div>
           <div className="border-none h-auto w-auto md:w-60 p-3 text-center space-y-3 rounded-lg bg-[#F1F2F2]">
-            <h1 className="text-[#6D6E71] text-base font-bold">
+            <h1 className="text-black text-base font-bold">
               How does it work?
             </h1>
-            <p className="text-[#6D709A]">
+            <p className="text-black">
               Once you have created your listing, simply press the ‘Refresh’
               Button next to your listing in your Home page. Wihin 2 minutes you
               will be at the front of What’s Fresh
             </p>
           </div>
           <div className="border-none h-auto w-auto md:w-60 p-3 text-center space-y-3 rounded-lg bg-[#F1F2F2]">
-            <h1 className="text-[#6D6E71] text-base font-bold">
+            <h1 className="text-black text-base font-bold">
               What about search
             </h1>
-            <p className="text-[#6D709A]">
+            <p className="text-black">
               Not only will your listing feature in What’s Fresh, it will also
               be boosted in Search Results. There is no limit to how many times
               you can ‘Refresh’ your listings.
             </p>
           </div>
           <div className="border-none h-auto w-auto md:w-60 p-3 text-center space-y-3 rounded-lg bg-[#F1F2F2]">
-            <h1 className="text-[#6D6E71] text-base font-bold">
+            <h1 className="text-black text-base font-bold">
               What does it cost?
             </h1>
-            <p className="text-[#6D709A]">
+            <p className="text-black">
               It’s FREE. Unlike others who charge to boost your listings,
               Clasified App  is totally free and you have total control of how often
               you boost your listings

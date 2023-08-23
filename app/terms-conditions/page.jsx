@@ -6,10 +6,10 @@ export default function Conditions() {
       <div className="bg-[url('/assets/term-cond.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60"></div>
       <div className="py-10">
         <div className="flex flex-col border rounded-lg shadow-xl border-[#BDBDBD] bg-[#079DE2] md:mx-40">
-          <h1 className="flex justify-center text-white py-4 font-bold text-xl">
+          <h1 className="flex justify-center text-white py-4 font-bold">
             Terms & Conditions
           </h1>
-          <div className="bg-white text-[#333333] py-20 px-10 space-y-5">
+          <div className="bg-white text-black py-20 px-10 space-y-5">
             <h2 className="font-bold">1. The Agreement</h2>
             <p>
               Thanks for visiting our terms of use (<strong>Agreement</strong>),

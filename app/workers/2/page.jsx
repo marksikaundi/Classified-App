@@ -16,10 +16,10 @@ export default function Page() {
         </div>
       </div>
       <div className="flex flex-col space-y-5 mx-auto md:mx-10 lg:mx-40 py-5 md:py-10">
-        <h1 className="flex justify-center text-3xl md:mt-5 text-[#6D6E71]">
+        <h1 className="flex justify-center md:mt-5 text-black">
           WORKERS
         </h1>
-        <p className="flex justify-center text-center text-[#6D6E71]">
+        <p className="flex justify-center text-center text-black">
           Clasified App is the perfect tool to find a job or casual work at no cost.
           Create a Worker Profile with your name, a description of your awesome
           abilities and your contact details. You can list individual skills,
@@ -30,8 +30,8 @@ export default function Page() {
           for hire.
         </p>
       </div>
-      <div className="flex flex-col py-5 md:py-10 bg-[#F4F5F7] text-[#6D6E71]">
-        <h1 className="flex justify-center text-center text-3xl">
+      <div className="flex flex-col py-5 md:py-10 bg-[#F4F5F7] text-black">
+        <h1 className="flex justify-center text-center">
           CREATE UNLIMITED WORKER PROFILES
         </h1>
         <div className="flex md:flex-row flex-col space-x-3 space-y-5 md:space-y-0 mx-10 my-10 justify-center">
@@ -72,31 +72,33 @@ export default function Page() {
                 src="/assets/worker1.jpg"
                 alt="..."
                 className="h-40 w-auto md:w-4/5"
+                height={40}
+                width={300}
               />
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-lg"
+              className="text-black hover:text-[#479DE2] md:text-lg"
             >
               Go on Holidays - Turn off your Worker Profile
             </a>
-            <p className="text-[#747489]">
+            <p className="text-black">
               Going on Holidays - Putting your Worker Profile on Hold Are you
               planning a vacation in the Bahamas? Is it the end of a school
               season and your kids are pushing you to take them [...]
             </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
         </div>
         <div className="flex justify-end space-x-2 py-5">
-          <a href="/workers" className="text-[#747489] hover:text-[#479DE2]">
+          <a href="/workers" className="text-black hover:text-[#479DE2]">
             &lt; Previous{" "}
           </a>
           <a
             href="/workers"
-            className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-[#747489] ${
+            className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-black ${
               currentPage === 1 ? "bg-[#079DE2] text-white" : ""
             }`}
             onClick={() => setCurrentPage(1)}
@@ -105,7 +107,7 @@ export default function Page() {
           </a>
           <a
             href="/workers/2"
-            className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-[#747489] ${
+            className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-black ${
               currentPage === 2 ? "bg-[#079DE2] text-white" : ""
             }`}
             onClick={() => setCurrentPage(2)}
