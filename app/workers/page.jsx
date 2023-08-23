@@ -16,10 +16,10 @@ export default function Workers() {
         </div>
       </div>
       <div className="flex flex-col space-y-5 mx-auto md:mx-10 lg:mx-40 py-5 md:py-10">
-        <h1 className="flex justify-center text-3xl md:mt-5 text-[#6D6E71]">
+        <h1 className="flex justify-center md:mt-5 text-black">
           WORKERS
         </h1>
-        <p className="flex justify-center text-center text-[#6D6E71]">
+        <p className="flex justify-center text-center text-black">
           ClasifiedApp  is the perfect tool to find a job or casual work at no cost.
           Create a Worker Profile with your name, a description of your awesome
           abilities and your contact details. You can list individual skills,
@@ -30,8 +30,8 @@ export default function Workers() {
           for hire.
         </p>
       </div>
-      <div className="flex flex-col py-5 md:py-10 bg-[#F4F5F7] text-[#6D6E71]">
-        <h1 className="text-3xl flex justify-center text-center">
+      <div className="flex flex-col py-5 md:py-10 bg-[#F4F5F7] text-black">
+        <h1 className="flex justify-center text-center">
           CREATE UNLIMITED WORKER PROFILES
         </h1>
         <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-3 mx-10 my-10 justify-center">
@@ -78,11 +78,11 @@ export default function Workers() {
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-lg"
+              className="text-black hover:text-[#479DE2] md:text-lg"
             >
               From the Fans: 10 reasons why you should use Classified App
             </a>
-            <p className="text-[#747489]">
+            <p className="text-black">
               One of our delighted fans in Romania, Andrada Anitei, recently
               posted an article in LinkedIn and a blog on her website about
               Classified App. We love it when people around the globe get real
@@ -90,7 +90,7 @@ export default function Workers() {
               have probably seen me promoting and using this new-edge platform
               for almost [...]
             </p>
-            <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
@@ -106,29 +106,29 @@ export default function Workers() {
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
+              className="text-black hover:text-[#479DE2] md:text-xl"
             >
               Creating Multiple Worker Profiles Using Classified App
             </a>
-            <p className="text-[#747489]">
+            <p className="text-black">
               Create Multiple Worker Profiles to Separate Your Skills and
               Vocations Are you having problems convincing employers that you
               are the right candidate for the job? The world as we know has
               grown more complex with [...]
             </p>
-            <button className="md:ml-40 ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="md:ml-40 ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
         </div>
         <div className="flex justify-end space-x-2 py-5">
-            <a href="/workers" className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-[#747489] ${currentPage === 1 ? 'bg-[#079DE2] text-white' : ''}`} onClick={() => setCurrentPage(1)} >
+            <a href="/workers" className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-black ${currentPage === 1 ? 'bg-[#079DE2] text-white' : ''}`} onClick={() => setCurrentPage(1)} >
                  <p className="mx-2">1</p>
             </a>
-            <a href="/workers/2" className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-[#747489] ${currentPage === 2 ? 'bg-[#079DE2] text-white' : ''}`} onClick={() => setCurrentPage(2)} >
+            <a href="/workers/2" className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-black ${currentPage === 2 ? 'bg-[#079DE2] text-white' : ''}`} onClick={() => setCurrentPage(2)} >
             <p className="mx-2">2</p>
             </a>
-            <a href="/workers/2" className="text-[#747489] hover:text-[#479DE2]">Next &gt;</a>
+            <a href="/workers/2" className="text-black hover:text-[#479DE2]">Next &gt;</a>
         </div>
       </div>
     </div>

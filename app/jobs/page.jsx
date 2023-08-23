@@ -12,8 +12,8 @@ function page() {
         </div>
       </div>
       <div className='flex justify-center py-5 bg-white md:h-auto'>
-        <div className='grid grid-rows-1 text-[#747474] w-4/5 items-center'>
-          <h1 className='font-bold text-xl text-center'>JOBS</h1>
+        <div className='grid grid-rows-1 text-black w-4/5 items-center'>
+          <h1 className='text-center'>JOBS</h1>
           <p className='md:w-2/4 lg:w-4/5 text-center m-auto mb-8 leading-normal'>
           Classified App is your own free jobs agency, connecting employers and workers in real time. <br />
             Small and large businesses alike can list vacancies in just a few minutes <br />
@@ -27,7 +27,7 @@ function page() {
         <div className='flex justify-center md:min-h-screen'>
           <div className='text-[#747474] items-center md:grid grid-cols-2 gap-2'>
             <div className='text-center py-5 mx-5'>
-              <h1 className='font-bold text-2xl mb-8'>
+              <h1 className='font-bold mb-8'>
                 GET FOUND
               </h1>
               <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
@@ -36,7 +36,7 @@ function page() {
               </p>
             </div>
             <div className='text-center py-5 mx-5'>
-              <h1 className='font-bold text-2xl mb-8'>
+              <h1 className='font-bold mb-8'>
                 FOR EMPLOYERS
               </h1>
               <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
@@ -47,7 +47,7 @@ function page() {
             </div>
           </div>
         </div>
-        <div className='bg-white md:grid grid-cols-2 gap-2 min-h-screen text-[#747474]'>
+        <div className='bg-white md:grid grid-cols-2 gap-2 min-h-screen text-black'>
           <div className='flex justify-center items-center mx-5'>
             <div className='md:grid grid-row-1 gap-2 py-5'>
               <div className='flex justify-center'>
@@ -64,7 +64,7 @@ function page() {
                 </p>
               </div>
               <div className='h-9 sm:w-32 border m-auto border-[#2b3c96] hover:bg-[#2b3c96] transition-colors duration-300 rounded-md'>
-                <button className="h-full w-full text-[#2b3c96] transition-colors duration-300 hover:text-white m-auto">
+                <button className="h-full w-full transition-colors duration-300 hover:text-white m-auto">
                   Read More
                 </button>
               </div>
@@ -86,7 +86,7 @@ function page() {
                 </p>
               </div>
               <div className='h-9 sm:w-32 border m-auto border-[#2b3c96] hover:bg-[#2b3c96] transition-colors duration-300 rounded-md'>
-                <button className="h-full w-full text-[#2b3c96] transition-colors duration-300 hover:text-white m-auto">
+                <button className="h-full w-full transition-colors duration-300 hover:text-white m-auto">
                   Read More
                 </button>
               </div>
