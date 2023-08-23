@@ -25,7 +25,7 @@ function Navbar() {
   ];
 
   return (
-    <div className="w-full flex h-16">
+    <div className="w-full flex h-20">
       <ul className="hidden w-full sm:flex justify-center items-center">
         {/* <Link href="/">
         <li className='hover:text-amber-600 ml-4 hover:border-b text-sm lg:text-xl'>home</li>
@@ -54,8 +54,8 @@ function Navbar() {
       <div
         className={
           nav
-            ? "md:hidden absolute z-10 left-0 right-0 top-64 h-80 bottom-0 w-full bg-gray-200 items-center duration-300"
-            : "md:hidden absolute z-10 left-[-100%] top-64 right-0 h-80 bottom-0 w-full bg-gray-200 flex justify-center items-center duration-300"
+            ? "md:hidden absolute z-10 top-64 right-0 h-80 bottom-0 w-full bg-gray-200 items-center duration-300"
+            : "md:hidden absolute z-10 top-[-100%] right-0 h-80 bottom-0 w-full bg-gray-200 flex justify-center items-center duration-300"
         }
       >
         <ul className="bg-[#2b3c96] text-center text-white p-10 absolute top-0 right-0 w-full">
