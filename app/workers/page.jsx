@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { PiArrowBendDoubleUpRight } from "react-icons/pi";
+import { HiArrowTrendingUp } from "react-icons/hi2";
 
 export default function Workers() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -9,7 +9,7 @@ export default function Workers() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
       <div className="bg-[url('/assets/worker_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
-        <div className="absolute my-5 md:my-16 left-10 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white md:text-3xl text-xl">
+        <div className="absolute my-5 md:my-16 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white md:text-3xl text-xl">
           <h1 className="my-5 mx-5">
             LABOUR FOR HIRE AND PROFESSIONAL WORKERS
           </h1>
@@ -36,27 +36,27 @@ export default function Workers() {
         </h1>
         <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-3 mx-10 my-10 justify-center">
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl">PERSON</h1>
+            <h2>PERSON</h2>
             <p>
               ClasifiedApp  allows you to create multiple Worker Profiles for
               different skills and vocations.
             </p>
           </div>
           <div className="hidden md:flex">
-            <PiArrowBendDoubleUpRight size={70} />
+            <HiArrowTrendingUp size={40} />
           </div>
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl">CARPENTER</h1>
+            <h2>CARPENTER</h2>
             <p>
               I am a carpenter by trade and available for construction projects
               during normal working hours.
             </p>
           </div>
           <div className="hidden md:flex">
-            <PiArrowBendDoubleUpRight size={70} />
+            <HiArrowTrendingUp size={40} />
           </div>
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl">SECURITY GUARD</h1>
+            <h2>SECURITY GUARD</h2>
             <p>
               I am a trained security guard and available for contract work on
               short notice.
@@ -65,20 +65,20 @@ export default function Workers() {
         </div>
       </div>
       <div className="md:py-10 py-5 md:mx-40 mx-10">
-        <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10">
+        <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 text-center md:my-10">
           <div className="space-y-3 md:w-full w-auto">
             <p className="md:mb-8 mb-2">
               <Image
                 src="/assets/classified2.jpg"
                 alt="..."
-                className="h-40 w-auto md:w-full"
+                className="h-52 w-auto md:w-full"
                 width={200}
                 height={40}
               />
             </p>
             <a
               href=""
-              className="text-black hover:text-[#479DE2] md:text-lg"
+              className="hover:text-black text-[#2B3C96] md:text-2xl"
             >
               From the Fans: 10 reasons why you should use Classified App
             </a>
@@ -90,7 +90,7 @@ export default function Workers() {
               have probably seen me promoting and using this new-edge platform
               for almost [...]
             </p>
-            <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
@@ -99,14 +99,14 @@ export default function Workers() {
               <Image
                 src="/assets/worker2.jpg"
                 alt="..."
-                className="h-40 w-auto md:w-full"
+                className="h-52 w-auto md:w-full"
                 height={40}
                 width={200}
               />
             </p>
             <a
               href=""
-              className="text-black hover:text-[#479DE2] md:text-xl"
+              className="hover:text-black text-[#2B3C96] md:text-2xl"
             >
               Creating Multiple Worker Profiles Using Classified App
             </a>
@@ -116,7 +116,7 @@ export default function Workers() {
               are the right candidate for the job? The world as we know has
               grown more complex with [...]
             </p>
-            <button className="md:ml-40 ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-black rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
