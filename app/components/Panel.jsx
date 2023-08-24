@@ -12,16 +12,16 @@ const Panel = ({ title, children }) => {
         className="flex justify-start space-x-3 items-center cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-[#110000] hover:text-[#079DE2]">
+        <span className="text-black hover:text-[#079DE2]">
           {isOpen ? (
             <AiFillMinusSquare size={30} />
           ) : (
             <AiFillPlusSquare size={30} />
           )}
         </span>
-        <h2 className="text-lg text-[#110000] border-b border-[#110000]">
+        <p className="text-black border-b border-[#110000]">
           {title}
-        </h2>
+        </p>
       </div>
       {isOpen && (
         <div className="mt-2 text-[#414565] md:ml-10 ml-5">{children}</div>
