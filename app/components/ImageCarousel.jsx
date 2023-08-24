@@ -42,9 +42,9 @@ const ImageCarousel = () => {
         width={500}
        
       />
-      <div className="bg-gradient-to-r from-gray-500 absolute md:h-60 h-20 left-0 bottom-0 text-white font-bold md:text-3xl text-sm block">
+      <div className="bg-gradient-to-r from-gray-500 absolute md:h-60 h-20 left-0 bottom-0 text-white font-bold block">
         <h1 className="md:pt-6 pt-3 md:ml-20 ml-10">BUY, SELL,</h1>
-        <p className="md:ml-20 ml-10">RENT or SWAP</p>
+        <h1 className="md:ml-20 ml-10">RENT or SWAP</h1>
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex justify-center space-x-2 mt-4">
         {images.map((_, index) => (
@@ -52,7 +52,7 @@ const ImageCarousel = () => {
             key={index}
             onClick={() => setCurrentIndex(index)}
             className={`h-2 w-2 rounded-full ${
-              index === currentIndex ? "bg-blue-500" : "bg-gray-300"
+              index === currentIndex ? "bg-[#2B3C96]" : "bg-gray-300"
             }`}
           ></button>
         ))}
