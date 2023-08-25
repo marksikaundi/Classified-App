@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { PiArrowBendDoubleUpRight } from "react-icons/pi";
+import { HiArrowTrendingUp  } from "react-icons/hi2";
 
 export default function Page() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
       <div className="bg-[url('/assets/worker_bg.jpg')] bg-cover bg-center bg-no-repeat md:h-96 h-60">
-        <div className="absolute my-5 md:my-16 left-10 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white md:text-3xl text-xl">
+        <div className="absolute my-5 md:my-16 left-10 md:left-20 mx-10 bg-gray-500 border-none bg-opacity-50 h-auto md:w-96 w-auto text-white">
           <h1 className="my-5 mx-5">
             LABOUR FOR HIRE AND PROFESSIONAL WORKERS
           </h1>
@@ -36,27 +36,27 @@ export default function Page() {
         </h1>
         <div className="flex md:flex-row flex-col space-x-3 space-y-5 md:space-y-0 mx-10 my-10 justify-center">
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl">PERSON</h1>
+            <h2>PERSON</h2>
             <p>
             Clasified App  allows you to create multiple Worker Profiles for
               different skills and vocations.
             </p>
           </div>
           <div className="hidden md:flex">
-            <PiArrowBendDoubleUpRight size={70} />
+            <HiArrowTrendingUp  size={40} />
           </div>
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl">CARPENTER</h1>
+            <h2>CARPENTER</h2>
             <p>
               I am a carpenter by trade and available for construction projects
               during normal working hours.
             </p>
           </div>
           <div className="hidden md:flex">
-            <PiArrowBendDoubleUpRight size={70} />
+            <HiArrowTrendingUp  size={40} />
           </div>
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl">SECURITY GUARD</h1>
+            <h2>SECURITY GUARD</h2>
             <p>
               I am a trained security guard and available for contract work on
               short notice.
@@ -71,14 +71,14 @@ export default function Page() {
               <Image
                 src="/assets/worker1.jpg"
                 alt="..."
-                className="h-40 w-auto md:w-4/5"
+                className="h-52 w-auto md:w-full"
                 height={40}
                 width={300}
               />
             </p>
             <a
               href=""
-              className="text-black hover:text-[#479DE2] md:text-lg"
+              className="hover:text-black text-[#2B3C96] md:text-2xl"
             >
               Go on Holidays - Turn off your Worker Profile
             </a>
@@ -99,7 +99,7 @@ export default function Page() {
           <a
             href="/workers"
             className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-black ${
-              currentPage === 1 ? "bg-[#079DE2] text-white" : ""
+              currentPage === 1 ? "bg-[#2B3C96] text-white" : ""
             }`}
             onClick={() => setCurrentPage(1)}
           >
@@ -108,7 +108,7 @@ export default function Page() {
           <a
             href="/workers/2"
             className={`border border-[#E0DEDE] hover:border-[#479DE2] h-6 w-6 text-black ${
-              currentPage === 2 ? "bg-[#079DE2] text-white" : ""
+              currentPage === 2 ? "bg-[#2B3C96] text-white" : ""
             }`}
             onClick={() => setCurrentPage(2)}
           >
