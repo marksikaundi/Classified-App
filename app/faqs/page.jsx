@@ -22,7 +22,7 @@ export default function Faqs() {
                 individuals alike and there are no fees, charges or commissions
                 payable. You<br></br> will have to see WorkApp to appreciate the
                 many benefits you can derive from this unique platform.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -43,7 +43,7 @@ export default function Faqs() {
                 where you can chat with friends and family, send audio,<br></br>{" "}
                 video and photos. No other App currently does all that WorkApp
                 offers.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -57,7 +57,7 @@ export default function Faqs() {
                 with the web version. WorkApp is a single App with features for
                 <br></br> businesses and individuals alike. Enjoy using your
                 WorkApp.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -72,7 +72,7 @@ export default function Faqs() {
                 minute. Once you are registered, all your data will be available
                 on any device you use. There is no cost for registering or using
                 WorkApp.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -89,7 +89,7 @@ export default function Faqs() {
                 second to refresh your post and get prioritised on the search
                 results. No need to pay to boost your post - simply press the
                 Refresh button.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -105,7 +105,7 @@ export default function Faqs() {
                 Profiles are used ongoing whilst Posts are classifieds, which
                 are temporary and used for listing items for sale, rent or job
                 vacancies and events that have an end date.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -123,7 +123,7 @@ export default function Faqs() {
                 will boost the listing to the top of search results as well as
                 renew it for a further 7 or 30 days depending on the listing
                 type.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -139,7 +139,7 @@ export default function Faqs() {
                 choose to pay you accordingly. WorkApp does not charge you any
                 fees or commissions and these details are not disclosed to
                 anyone except for payment processing purposes.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>
@@ -155,7 +155,7 @@ export default function Faqs() {
                 haven&apos;t refreshed your post or profile by then. We really
                 don&apos;t want you to miss out by having your profiles and
                 posts expire.
-                <div className="flex flex-row space-x-3 mt-5 text-[#4D7AB7] underline underline-offset-6">
+                <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
                   <a href="">Use Classified App on the web</a>

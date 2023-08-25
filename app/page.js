@@ -122,7 +122,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('/assets/workapp_bg.jpg')] bg-cover md:py-5 py-3">
+      <div className="bg-[url('/assets/workapp_bg.jpg')] bg-cover text-white md:py-5 py-3">
         <h1 className="flex justify-center">
           WHY CLASSIFIED APP
         </h1>
