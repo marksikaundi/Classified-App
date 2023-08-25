@@ -2,16 +2,16 @@ import React from 'react'
 
 function Privacy() {
   return (
-    <div className='min-h-screen mx-auto'>
+    <div className='min-h-screen mx-auto bg-white'>
       <div className="bg-[url('/assets/term-cond.jpg')] md:h-72 h-60 flex justify-start bg-cover bg-center">
-        <div className="absolute flex justify-center items-center md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
+        <div className="absolute flex justify-center items-center md:mt-14 mt-5 ml-10 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white">
             <h1 className="my-5 mx-5">
                 Classified-App
             </h1>
         </div>
       </div>
-        <div>
-            <div className='w-4/5 shadow-md h-auto m-auto mb-10'>
+        <div className="text-black">
+            <div className='w-4/5 shadow-md h-auto m-auto space-y-5'>
                 <div className='text-center text-white bg-slate-400 w-full h-16 mt-3 pt-3'>
                     <h1>Privacy Policy</h1>
                 </div>
@@ -34,9 +34,9 @@ function Privacy() {
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
                     <h1>3. Collection of Personal Information</h1> <br />
-                    <h1>
+                    <h2>
                     3.1 How we collect Personal Information
-                    </h1> <br />
+                    </h2> <br />
                     <p>
                     We collect Personal Information in the ordinary course of our business,
                     which is the provision of an online global marketplace which aims to connect people
@@ -55,7 +55,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>3.2 What Personal Information is collected?</h1> <br />
+                    <h2>3.2 What Personal Information is collected?</h2> <br />
                     <p>
                     The types of Personal Information we collect includes your name, address,
                     telephone number, email, details of any listings you make, IP address,
@@ -70,8 +70,8 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4. How WorkApp uses Personal Information <br />
-                      4.1 Why we collect Personal Information</h1> <br />
+                    <h1>4. How WorkApp uses Personal Information <br /></h1>
+                      <h2>4.1 Why we collect Personal Information</h2> <br />
                     <p>
                     We collect your Personal Information for the primary purpose of providing
                     our platform to you. We may also use your Personal Information for secondary purposes
@@ -95,7 +95,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4.2 Direct marketing</h1> <br />
+                    <h2>4.2 Direct marketing</h2> <br />
                     <p>
                     Where you provide us with consent to do so (e.g. if you have subscribed to our email or
                     SMS lists or have indicated that you are interested in receiving offers or information from us),
@@ -114,7 +114,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4.3 Use of de-identified data</h1> <br />
+                    <h2>4.3 Use of de-identified data</h2> <br />
                     <p>
                     The data we collect may have analytical value to us, our business partners and our
                     related entities. We reserve the right to process, distribute or sell information
@@ -123,8 +123,8 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>5. Cookies and browser analytics <br />
-                        5.1 Cookies, pixels and logs</h1> <br />
+                    <h1>5. Cookies and browser analytics </h1>
+                        <h2>5.1 Cookies, pixels and logs</h2> <br />
                     <p>
                     When you visit our website or engage with us through social media, certain information is collected. This is generally anonymous information and it does not reveal your identity. However, if you are logged into your account some of this information could be associated with you.
                     </p>
@@ -147,7 +147,7 @@ function Privacy() {
                     You can learn more about our Cookies Policy at https://workapp.world/cookiespolicy.
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>5.2 Use of Google Analytics</h1> <br />
+                    <h2>5.2 Use of Google Analytics</h2> <br />
                     <p>
                     This website uses Google Analytics, a web analytics service provided by Google LLC (Google).
                     Google analytics uses cookies, which are text files placed on your computer, to
@@ -176,7 +176,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4.3 Use of de-identified data</h1> <br />
+                    <h2>6.1 Use of de-identified data</h2> <br />
                     <p>
                     The data we collect may have analytical value to us, our business partners and our
                     related entities. We reserve the right to process, distribute or sell information
@@ -185,7 +185,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>6.2 How long we keep your Personal Information</h1> <br />
+                    <h2>6.2 How long we keep your Personal Information</h2> <br />
                     <p>
                     We retain your Personal Information for as long as is necessary to provide you access to our platform, as required for our internal business operations, and to comply with our legal obligations.
                     <br />
@@ -231,7 +231,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4.3 Use of de-identified data</h1> <br />
+                    <h2>4.3 Use of de-identified data</h2> <br />
                     <p>
                     The data we collect may have analytical value to us, our business partners and our
                     related entities. We reserve the right to process, distribute or sell information
@@ -240,7 +240,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4.3 Use of de-identified data</h1> <br />
+                    <h2>4.3 Use of de-identified data</h2> <br />
                     <p>
                     The data we collect may have analytical value to us, our business partners and our
                     related entities. We reserve the right to process, distribute or sell information
