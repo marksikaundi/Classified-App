@@ -12,8 +12,8 @@ export default function Contact() {
         </div>
       </div>
       <form className="py-14 flex-col lg:flex-row flex lg:space-x-10 px-10 lg:px-20">
-        <div className="md:w-full lg:w-4/5 text-[#8A7474] border-[#D2D2D2] ">
-          <h1 className="text-[#2B3C96] text-3xl border-b-2">CONTACT FORM</h1>
+        <div className="md:w-full lg:w-4/5 text-[#333333] border-[#D2D2D2] ">
+          <h1 className="border-b-2">CONTACT FORM</h1>
           <div className="flex md:flex-row flex-wrap flex-col space-y-5 md:space-y-0 justify-between pt-10">
             <div className="flex flex-col">
               <p className="">Your Name*</p>
@@ -67,8 +67,8 @@ export default function Contact() {
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 mt-10 md:mt-0 text-[#8A7474] border-[#D2D2D2]">
-          <h1 className="text-[#2B3C96] text-3xl border-b-2">INFORMATION</h1>
+        <div className="md:w-1/2 mt-10 md:mt-0 text-[#333333] border-[#D2D2D2]">
+          <h1 className="text-[#333333] border-b-2">INFORMATION</h1>
           <p className="flex pt-10">
             <ImMail4 size={30} className="text-[#2B3C96] mr-3" />
             info@classifiedapp.world

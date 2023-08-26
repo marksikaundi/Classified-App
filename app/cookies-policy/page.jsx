@@ -12,9 +12,9 @@ function Cookies() {
       </div>
         <div>
             <div className='w-4/5 shadow-md h-auto m-auto mb-10'>
-                <div className='text-center text-white bg-slate-400 w-full h-16 mt-3 pt-3'>
+                <h1 className='text-center text-[#333333] w-full h-16 mt-3 pt-3'>
                     Cookies Policy
-                </div>
+                </h1>
                 <div className='grid grid-col-1 justify-center text-start h-auto'>
                     <h1>1. Cookies Policy</h1> <br />
                     <p>
