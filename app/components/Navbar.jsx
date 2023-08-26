@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { FaLongArrowAltRight } from 'react-icons/fa';
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -43,10 +42,6 @@ function Navbar() {
           ))}
         </nav>
       </ul>
-
-      <div className="left-0 ml-5 mt-5 text-white md:hidden">
-        < FaLongArrowAltRight size={30} />
-      </div>
 
       {/* mobile button */}
       <div
