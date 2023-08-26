@@ -63,7 +63,7 @@ export default function About() {
               an equal opportunity to rise to the top of search results.
               </p>
             </div>
-            <div className='text-gray-700 text-center py-5 mx-5'>
+            <div className='text-black text-center py-5 mx-5'>
               <h1 className='mb-8'>
                 OUR VISION
               </h1>

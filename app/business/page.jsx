@@ -31,14 +31,14 @@ export default function Businesses() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
       <div className="bg-[url('/assets/business_bg.jpg')] md:h-96 h-60">
-        <div className="absolute md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
+        <div className="absolute md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white">
           <h1 className="my-5 mx-5">
             LIST, PROMOTE AND<br></br> GROW YOUR BUSINESSES
           </h1>
         </div>
       </div>
       <div className="md:py-8 py-5">
-        <h1 className="flex justify-center text-[#333333] md:mb-10 mb-5 md:text-3xl text-base">
+        <h1 className="flex justify-center text-[#333333] md:mb-10 mb-5">
           BUSINESS
         </h1>
         <div className="flex md:flex-row flex-col md:space-x-20 lg:space-x-60 justify-center">
@@ -66,7 +66,7 @@ export default function Businesses() {
           </div>
           <div className="flex flex-col items-center">
             <div className="relative overflow-hidden md:w-96 w-60 h-auto border rounded-tl-lg rounded-br-lg border-[#D8D8D8] bg-[#F4F5F7] shadow-md">
-              <p className="text-[#797979] flex justify-center lg:mt-14 md:mt-5 mt-5 md:text-base lg:text-xl italic mx-3">
+              <p className="text-[#000000] flex justify-center lg:mt-14 md:mt-5 mt-5 md:text-base italic mx-3">
                 {testimonials[currentSlide].text}
               </p>
               <div className="my-5 md:my-5 flex justify-center">
@@ -81,7 +81,7 @@ export default function Businesses() {
                   key={index}
                   onClick={() => setCurrentSlide(index)}
                   className={`h-2 w-2 rounded-full ${
-                    index === currentSlide ? "bg-[#747474]" : "bg-gray-300"
+                    index === currentSlide ? "bg-[#000000]" : "bg-gray-300"
                   }`}
                 ></button>
               ))}
@@ -98,7 +98,7 @@ export default function Businesses() {
             <h1 className="text-[#333333] text-xl md:mb-3 mb-1">
               Download Classified App
             </h1>
-            <p className="text-[#747489]">
+            <p className="text-[#000000]">
               Simply download ClassfiedApp from the App Store, Google play or on
               desktop via our ClassfiedApp for the Web platform, and you’re ready to
               go.
@@ -108,7 +108,7 @@ export default function Businesses() {
             <h1 className="text-[#333333] text-xl md:mb-3 mb-1">
               Create your first business Profile
             </h1>
-            <p className="text-[#747489]">
+            <p className="text-[#000000]">
               Add your business name, description, contact details, logo and
               additional images of your portfolio. You can also activate PayPal
               and open your first ClassfiedApp digital shop or simply link to your
@@ -119,7 +119,7 @@ export default function Businesses() {
             <h1 className="text-[#333333] text-xl md:mb-3 mb-1">
               Add Extra Value
             </h1>
-            <p className="text-[#747489]">
+            <p className="text-[#000000]">
               Choose Edit Profile to add new products, promotions and job
               vacancies to your business profile. Remember to refresh your
               ClassfiedApp business listing every 30 days.
@@ -145,7 +145,7 @@ export default function Businesses() {
             >
               Free Advertising!No Strings Attached
             </a>
-            <p className="text-[#747489]">
+            <p className="text-[#000000]">
               - By Mark Sikaundi, CEO There are many great things about my role
               as the CEO of DevCircle Africa. I get to work with an amazing team of
               professionals who give 110% every day and are [...]
@@ -170,7 +170,7 @@ export default function Businesses() {
             >
               Lessons learned from 6 Years in Enterprenuer Land
             </a>
-            <p className="text-[#747489]">
+            <p className="text-[#000000]">
               Next month marks the 6th anniversary of the DevCircle Africa story - an
               amazing journey from a simple idea to a fully functioning,
               revolutionary platform growing stronger by the day. So, I’ve been
@@ -185,10 +185,10 @@ export default function Businesses() {
       <div className="bg-[#EFF0F2] flex md:flex-row flex-col">
         <div className="bg-[url('/assets/business_iphns.png')] bg-no-repeat md:h-96 h-80 w-auto md:w-1/2"></div>
         <div className="flex flex-col mx-10 my-10">
-          <h1 className="text-[#6D6E71] md:text-3xl text-2xl">
+          <h1 className="text-[#000000] md:text-3xl text-2xl">
             On-the-go and need<br></br> local Workers?
           </h1>
-          <p className="flex mt-5 text-[#6D6E71]">
+          <p className="flex mt-5 text-[#000000]">
             Find and connect with local Workers.<br></br> Read rating and
             reviews, view their skills,<br></br> and availability. Make contact
             instantly.<br></br> ClassifiedApp, results for the here and now.

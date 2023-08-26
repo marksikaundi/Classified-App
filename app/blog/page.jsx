@@ -16,515 +16,147 @@ function page() {
           BLOGS
         </h1>
         <div className="text-[#333333] flex justify-center text-center md:flex-row flex-col md:divide-x-2 divide-[#333333] space-x-5">
-          <a href="" className="md:mt-0 mt-3 pl-5">Businesses</a>
-          <a href="" className="md:pl-5">
+          <a href="/business" className="md:mt-0 mt-3 pl-5">Businesses</a>
+          <a href="workers" className="md:pl-5">
             Workers
           </a>
-          <a href="" className="md:pl-5">
+          <a href="/jobs" className="md:pl-5">
             Jobs
           </a>
-          <a href="" className="md:pl-5">
+          <a href="/classifieds" className="md:pl-5">
             Classified
           </a>
-          <a href="" className="md:pl-5">
+          <a href="/community-events" className="md:pl-5">
             Community and Events
           </a>
-          <a href="" className="md:pl-5">
+          <a href="/messaging" className="md:pl-5">
             Messaging
           </a>
         </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/shane-article.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Free Advertising! No Strings Attached
-            </a>
-            <p className="text-[#747489] text-center">
-              - By Shane Wallace, CEO There are many great things about my role
-              as the CEO of Classified App. I get to work with an amazing [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
+        <div className='bg-white md:grid grid-cols-2 gap-2 py-10 md:mx-20 text-black'>
+          <div className='flex justify-center items-center mx-5'>
+            <div className='md:grid grid-row-1 gap-2 '>
+              <div className='flex justify-center h-40 w-4/5 md:w-full relative'>
+                <Image src="/assets/shane-article.jpg" alt="logo" layout="fill" className="" />
+              </div>
+              <div className='text-center py-5'>
+              <a
+                  href=""
+                  className="hover:text-black text-[#2B3C96] md:text-xl"
+                >
+                  Free Advertising! No Strings Attached
+                </a>
+                <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal mt-4'>
+                - By Shane Wallace, CEO There are many great things about my role
+                  as the CEO of Classified App. I get to work with an amazing [...]
+                </p>
+              </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#333333] hover:border-[#479DE2] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full transition-colors duration-300 hover:text-[#479DE2] m-auto">
+                  Read More
+                </button>
+              </div>
+            </div>
           </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/12.png"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Lessons Learned from 6 Years in Entrepreneur Land
-            </a>
-            <p className="text-[#747489]">
-              Next month marks the 6th anniversary of the Classified App story - an
-              amazing journey from a simple idea to a fully functioning,
-              revolutionary platform growing stronger by [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
+          <div className='flex justify-center items-center mt-2 mx-5'>
+            <div className='grid grid-row-1 gap-3'>
+              <div className='flex justify-center h-40 w-4/5 md:w-full relative'>
+                <Image src="/assets/12.png" alt="logo" object-fit="cover" fill={true} layout="fill" className=""/>
+              </div>
+              <div className='text-center py-5'>
+              <a
+                  href=""
+                  className="hover:text-black text-[#2B3C96] md:text-xl"
+                >
+                  Lessons Learned from 6 Years in Entrepreneur Land
+                </a>
+                <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal mt-4'>
+                Next month marks the 6th anniversary of the Classified App story - an
+                amazing journey from a simple idea to a fully functioning,
+                revolutionary platform growing stronger by [...]
+                </p>
+              </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#333333] hover:border-[#479DE2] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full transition-colors duration-300 hover:text-[#479DE2] m-auto">
+                  Read More
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/mortgAGE.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Big Future for Mortgage Brokers on Classified App
-            </a>
-            <p className="text-[#747489] text-center">
-              The banking Royal Commission has triggered a lot of doom and gloom
-              predictions for Australia’s $2 billion mortgage broking industry
-              with its recommendation that borrowers [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
+          <div className='flex justify-center items-center mt-2 mx-5'>
+            <div className='grid grid-row-1 gap-3'>
+              <div className='flex justify-center h-40 w-4/5 md:w-full relative'>
+              <Image src="/assets/mortgAGE.jpg" alt="logo" object-fit="cover" fill={true} layout="fill" className=""/>
+              </div>
+              <div className='text-center py-5'>
+              <a
+                  href=""
+                  className="hover:text-black text-[#2B3C96] md:text-xl"
+                >
+                  Big Future for Mortgage Brokers on Classified App
+                </a>
+                <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal mt-4'>
+                The banking Royal Commission has triggered a lot of doom and gloom
+                predictions for Australia’s $2 billion mortgage broking industry
+                with its recommendation that borrowers [...]
+                </p>
+              </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#333333] hover:border-[#479DE2] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full transition-colors duration-300 hover:text-[#479DE2] m-auto">
+                  Read More
+                </button>
+              </div>
+            </div>
           </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/classified2.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              From the Fans: 10 reasons why you should use Classified App
-            </a>
-            <p className="text-[#747489]">
-              One of our delighted fans in Romania, Andrada Anitei, recently
-              posted an article in LinkedIn and a blog on her website about
-              Classified App. We love [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
+          <div className='flex justify-center items-center mt-2 mx-5'>
+            <div className='grid grid-row-1 gap-3'>
+              <div className='flex justify-center h-40 w-4/5 md:w-full relative'>
+              <Image src="/assets/classified2.jpg" alt="logo" object-fit="cover" fill={true} layout="fill" className=""/>
+              </div>
+              <div className='text-center py-5'>
+              <a
+                  href=""
+                  className="hover:text-black text-[#2B3C96] md:text-xl"
+                >
+                From the Fans: 10 reasons why you should use Classified App
+                </a>
+                <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal mt-4'>
+                One of our delighted fans in Romania, Andrada Anitei, recently
+                posted an article in LinkedIn and a blog on her website about
+                Classified App. We love [...]
+                </p>
+              </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#333333] hover:border-[#479DE2] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full transition-colors duration-300 hover:text-[#479DE2] m-auto">
+                  Read More
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/andrada-1.jpg"
-                alt="..."
-                className="h-40 md:w-4/5 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              From the Fans: NEW BUSINESS PLATFORM GOING VIRAL!
-            </a>
-            <p className="text-[#747489] text-center">
-              One of our delighted fans in Romania recently posted an article in
-              LinkedIn and a blog on her website about Classified App. We love
-              it when [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/shane-2-feature.png"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Why Smart Event Organisers Use Classified App
-            </a>
-            <p className="text-[#747489]">
-              Life is so busy for most people these days that working out
-              exactly how best to spend your precious spare time can be a
-              challenge [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/shane-1-feature.jpg"
-                alt="..."
-                className="h-40 md:w-4/5 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Keep All The Profits From Your Hard Work
-            </a>
-            <p className="text-[#747489] text-center">
-              Media mogul Rupert Murdoch once described the newspaper
-              classifieds as “rivers of gold” because of how much revenue that
-              flowed into big media company’s coffers. [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/classified1.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Looking for Candidates just got exciting
-            </a>
-            <p className="text-[#747489]">
-              Looking for candidates just got exciting When it comes to finding
-              the right staff, Recruitment Agencies play a prominent role in
-              identifying, interviewing and shortlisting [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/business3.jpg"
-                alt="..."
-                className="h-40 md:w-4/5 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Promote Your Business
-            </a>
-            <p className="text-[#747489] text-center">
-              Promote your Business either locally, or globally, or both on
-              Classified App Whether you are a startup or a small business, you
-              must be looking for [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/business2.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Classified App - Your Integrated Business Solution
-            </a>
-            <p className="text-[#747489]">
-              Classified App - Your Integrated Business Solution Scrolling
-              through our phones we often realize how many apps we own and how
-              many we must update and [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/charity_fund.jpg"
-                alt="..."
-                className="h-40 md:w-4/5 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Community Organisations and Volunteers
-            </a>
-            <p className="text-[#747489] text-center">
-              Community Organizations and Volunteers Do you run a not for profit
-              organisation, sports club or other community organisation and need
-              volunteers who can be trusted [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/eve2.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Classified App for Community and Events
-            </a>
-            <p className="text-[#747489]">
-              Classified App Is the platform of choice for Community Groups and
-              Events Classified App is an application that has been created for
-              worldwide use, and the concept [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/message1.jpg"
-                alt="..."
-                className="h-40 md:w-4/5 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Classified App is an Integrated, Interactive Messaging App too
-            </a>
-            <p className="text-[#747489] text-center">
-              Classified App Is an Interactive, Integrated Global Messaging App
-              too Classified App is an application that has been created for use
-              world-wide. The app was designed in [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/classified2.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Free Classifieds simplified on Classified App
-            </a>
-            <p className="text-[#747489]">
-              Free Classifieds simplified on Classified App Globally Not so long
-              ago, if you had wanted to buy used (or new) goods such as a car,
-              TV, [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-20 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/job_bg.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Filling Job Vacancies with Classified App
-            </a>
-            <p className="text-[#747489] text-center">
-              Filling Job Vacancies with Classified App Getting a job in the
-              market today is much more difficult than it used to be. The
-              growing competition, the [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/messaging.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Classified App Messaging integrates with Business and Classifieds
-            </a>
-            <p className="text-[#747489]">
-              Classified App Messaging Integrates with Business and Classifieds
-              Online instant messaging has become the most efficient and highly
-              preferred method of communication. Since the launch of [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/worker2.jpg"
-                alt="..."
-                className="h-40 md:w-4/5 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Creating Multiple Worker Profiles Using Classified App
-            </a>
-            <p className="text-[#747489] text-center">
-              Create Multiple Worker Profiles to Separate Your Skills and
-              Vocations Are you having problems convincing employers that you
-              are the right candidate for the job? [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-          <div className="space-y-3 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/classified1.jpg"
-                alt="..."
-                className="h-40 md:w-full w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
-            >
-              Classified App Revolutionises Classified advertising online
-            </a>
-            <p className="text-[#747489]">
-              The Evolution of Classifieds from Print to Digital If there’s one
-              trend that has really caught up in the recent times, it is the
-              trend [...]
-            </p>
-            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
-          </div>
-        </div>
-        <div className="flex md:flex-row flex-col justify-start md:space-x-3 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5 text-center">
-            <p className="md:mb-8 mb-2">
-              <Image
-                src="/assets/worker1.jpg"
-                alt="..."
-                className="h-40 md:w-1/2 w-96"
-                height={40}
-                width={300}
-              />
-            </p>
-            <a
-              href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl flex justify-start"
-            >
-              Go on Holidays - Turn off your Worker Profile
-            </a>
-            <p className="text-[#747489] flex justify-start md:w-1/2">
-              Going on Holidays - Putting your Worker Profile on Hold Are you
-              planning a vacation in the Bahamas? Is it the end of a school
-              [...]
-            </p>
-            <button className=" flex justify-center md:ml-40 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
-              <p className="mx-8 my-2">Read More</p>
-            </button>
+          <div className='flex justify-center items-center mt-2 mx-5'>
+            <div className='grid grid-row-1 gap-3'>
+              <div className='flex justify-center h-40 w-4/5 md:w-full relative'>
+              <Image src="/assets/andrada-1.jpg" alt="logo" object-fit="cover" fill={true} layout="fill" className=""/>
+              </div>
+              <div className='text-center py-5'>
+              <a
+                  href=""
+                  className="hover:text-black text-[#2B3C96] md:text-xl"
+                >
+                From the Fans: NEW BUSINESS PLATFORM GOING VIRAL!
+                </a>
+                <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal mt-4'>
+                One of our delighted fans in Romania recently posted an article in
+                LinkedIn and a blog on her website about Classified App. We love
+                it when [...]
+                </p>
+              </div>
+              <div className='h-9 sm:w-32 border m-auto border-[#333333] hover:border-[#479DE2] transition-colors duration-300 rounded-md'>
+                <button className="h-full w-full transition-colors duration-300 hover:text-[#479DE2] m-auto">
+                  Read More
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
