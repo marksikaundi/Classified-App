@@ -15,7 +15,7 @@ export default function Classified() {
         <h1 className="flex justify-center text-[#333333] md:text-3xl text-base">
           CLASSIFIEDS
         </h1>
-        <p className="text-[#333333]">
+        <p className="text-[#6D6E71]">
           Buying, selling or renting? WorkApp is a free and effective
           classifieds service that can put your ad at the top of the search
           results. Our custom built search engine uses refresh technology to
@@ -26,7 +26,7 @@ export default function Classified() {
           the door to fast, free and fresh classifieds!
         </p>
       </div>
-      <div className="bg-[#F4F5F7] py-20 text-[#333333] text-center">
+      <div className="bg-[#F4F5F7] py-20 text-[#6D6E71] text-center">
         <div className="flex flex-col md:flex-row justify-center space-x-8 space-y-5 md:space-y-0 md:mx-40 mx-10">
           <div >
             WorkApp creates a level playing field for buyers. Search by
@@ -62,7 +62,7 @@ export default function Classified() {
             >
               From the Fans: 10 reasons why you should use WorkApp
             </a>
-            <p className="text-[#333333]">
+            <p className="text-[#747489]">
               One of our delighted fans in Romania, Andrada Anitei, recently
               posted an article in LinkedIn and a blog on her website about
               WorkApp. We love it when people around the globe get real value
@@ -90,7 +90,7 @@ export default function Classified() {
             >
               Keep All The Profits From Your Hard Work
             </a>
-            <p className="text-[#333333]">
+            <p className="text-[#747489]">
               Media mogul Rupert Murdoch once described the newspaper
               classifieds as “rivers of gold” because of how much revenue that
               flowed into big media company’s coffers. Well how times have
@@ -120,7 +120,7 @@ export default function Classified() {
             >
               Classified App Revolutionises Classified advertising online
             </a>
-            <p className="text-[#333333]">
+            <p className="text-[#747489]">
               The Evolution of Classifieds from Print to Digital If there’s one
               trend that has really caught up in the recent times, it is the
               trend of digital advertisement. With each passing day, businesses,
@@ -148,7 +148,7 @@ export default function Classified() {
             >
               Free Classifieds simplified on WorkApp
             </a>
-            <p className="text-[#333333]">
+            <p className="text-[#747489]">
               Free Classifieds simplified on WorkApp Globally Not so long ago,
               if you had wanted to buy used (or new) goods such as a car, TV,
               lounge suite etc, you would look at the Classifieds section of
