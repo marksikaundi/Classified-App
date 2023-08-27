@@ -32,8 +32,8 @@ export default function About() {
   return (
     <div className="min-h-screen mx-auto">
       <div className="bg-[url('/assets/about-us.jpg')] md:h-96 h-60 flex justify-start bg-cover bg-center">
-        <div className="absolute flex justify-center items-center md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
-            <h1 className="my-5 mx-5l">
+        <div className="absolute flex justify-center items-center md:mt-14 mt-5 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white">
+            <h1 className="my-5 mx-5">
                 BASED IN BRISBANE<br></br> AUSTRALIA
             </h1>
         </div>
@@ -43,7 +43,7 @@ export default function About() {
           <h1 className='text-center'>ABOUT US</h1>
           <p className='md:w-2/4 lg:w-4/5 text-center m-auto mb-8 leading-normal'>
             WorkApp is an exciting new way to connect people for a wide range of everyday personal <br />
-            and professional activities – all in one place. Finally, a single application bundles many common functions <br />
+            and professional activities - all in one place. Finally, a single application bundles many common functions <br />
             you may already use into one multi-device platform. And most importantly, WorkApp’s innovative ‘refresh’
             technology puts the power to succeed in your hands. <br />
             Thousands of work hours have gone into the creation of WorkApp so it can go to work for you! <br />
@@ -63,7 +63,7 @@ export default function About() {
               an equal opportunity to rise to the top of search results.
               </p>
             </div>
-            <div className='text-gray-700 text-center py-5 mx-5'>
+            <div className='text-black text-center py-5 mx-5'>
               <h1 className='mb-8'>
                 OUR VISION
               </h1>
@@ -86,7 +86,7 @@ export default function About() {
                   </p>
                 </div>
                 <div className="my-5 md:my-10 flex w-1/2 m-auto text-center justify-center flex-wrap">
-                  <p className="text-gray-800 md:mt-5 font-semibold">
+                  <p className="text-black md:mt-5 font-semibold">
                     {testimonials[currentSlide].name}
                   </p>
                 </div>
@@ -117,7 +117,7 @@ export default function About() {
             </div>
         </div>
         <div className="py-10 bg-slate-300">
-          <h1 className="flex justify-center text-[#333333] md:text-3xl text-base">
+          <h1 className="flex justify-center text-black">
             CLASSIFIED APP WORKS FOR YOU
           </h1>
           <div className="flex justify-center mt-5">
@@ -131,13 +131,13 @@ export default function About() {
           </div>
         </div>
         <div className="md:py-4 py-3 bg-zinc-200">
-        <h1 className="flex justify-center text-[#2B3C96] md:text-3xl text-base">
+        <h1 className="flex justify-center text-[#2B3C96]">
           QUESTIONS?
         </h1>
         <div className="flex justify-center items-center py-5">
           <div className="md:w-3/5 w-auto ">
             <Panel title="What is Classified App?">
-              <p className="text-sm">
+              <p>
                 WorkApp is an integrated App designed for iOS, Android and Web
                 Browsers that combines a<br></br> number of features to make it
                 easier and simpler for you to conduct business, communicate with

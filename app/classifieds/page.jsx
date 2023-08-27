@@ -5,17 +5,17 @@ export default function Classified() {
   return (
     <div className="min-h-screen mx-auto bg-cover bg-center bg-no-repeat bg-[#ffffff]">
       <div className="bg-[url('/assets/classified_bg.jpg')] bg-cover md:h-96 h-60">
-        <div className="absolute mt-14 right-10 md:right-20 bg-gray-500 border-none bg-opacity-50 md:h-40 h-20 md:w-96 w-auto text-white md:text-3xl text-xl">
+        <div className="absolute mt-14 md:right-20 bg-gray-500 border-none bg-opacity-50 md:h-40 h-auto md:w-96 w-auto text-white">
           <h1 className="my-5 mx-5">
             BUY, SELL,<br></br> RENT or SWAP
           </h1>
         </div>
       </div>
       <div className="flex flex-col space-y-3 justify-center py-10 md:mx-40 text-center">
-        <h1 className="flex justify-center text-[#333333] md:text-3xl text-base">
+        <h1 className="flex justify-center text-black">
           CLASSIFIEDS
         </h1>
-        <p className="text-[#6D6E71]">
+        <p className="text-black">
           Buying, selling or renting? WorkApp is a free and effective
           classifieds service that can put your ad at the top of the search
           results. Our custom built search engine uses refresh technology to
@@ -26,18 +26,18 @@ export default function Classified() {
           the door to fast, free and fresh classifieds!
         </p>
       </div>
-      <div className="bg-[#F4F5F7] py-20 text-[#6D6E71] text-center">
+      <div className="bg-[#F4F5F7] py-20 text-black text-center">
         <div className="flex flex-col md:flex-row justify-center space-x-8 space-y-5 md:space-y-0 md:mx-40 mx-10">
           <div >
             WorkApp creates a level playing field for buyers. Search by
             distance, price or the freshest posts. When you find something you
             need, message the seller and start chatting!
           </div>
-          <div className="">
+          <div>
             Sell, swap or give away anything on WorkApp for free and never pay
             commission. List your items, upload plenty of photos and stand by!
           </div>
-          <div className="">
+          <div>
             Rent your home, apartment or anything that is in demand. Charge by
             the hour, day, week, month or year. Spend just 10 seconds a day to
             refresh your posts.
@@ -45,24 +45,24 @@ export default function Classified() {
         </div>
       </div>
       <div className="py-5 md:mx-40 mx-10">
-        <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-5">
+        <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10 text-black">
+          <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
               <Image
                 src="/assets/classified2.jpg"
                 alt="..."
-                className="h-40 w-96"
+                className="h-52 md:w-full w-auto"
                 height={40}
                 width={300}
               />
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
+              className="hover:text-black text-[#2B3C96] md:text-xl"
             >
               From the Fans: 10 reasons why you should use WorkApp
             </a>
-            <p className="text-[#747489]">
+            <p>
               One of our delighted fans in Romania, Andrada Anitei, recently
               posted an article in LinkedIn and a blog on her website about
               WorkApp. We love it when people around the globe get real value
@@ -70,27 +70,27 @@ export default function Classified() {
               probably seen me promoting AND using this new-edge platform for
               almost [...]
             </p>
-            <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
               <Image
                 src="/assets/shane-1-feature.jpg"
                 alt="..."
-                className="h-40 w-96"
+                className="h-52 md:w-full w-auto"
                 height={40}
                 width={300}
               />
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
+              className="hover:text-black text-[#2B3C96] md:text-xl"
             >
               Keep All The Profits From Your Hard Work
             </a>
-            <p className="text-[#747489]">
+            <p>
               Media mogul Rupert Murdoch once described the newspaper
               classifieds as “rivers of gold” because of how much revenue that
               flowed into big media company’s coffers. Well how times have
@@ -98,29 +98,29 @@ export default function Classified() {
               Online Classified Advertising and the gold is now flowing in a few
               more directions. But despite the disruption, [...]
             </p>
-            <button className="md:ml-40 ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-10 space-y-5 md:space-y-0 md:my-10 my-5">
-          <div className="space-y-3">
+        <div className="flex md:flex-row flex-col justify-center md:space-x-20 space-y-5 md:space-y-0 md:my-10 my-5 text-black">
+          <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
               <Image
                 src="/assets/classified1.jpg"
                 alt="..."
-                className="h-40 w-96"
+                className="h-52 md:w-full w-auto"
                 height={40}
                 width={300}
               />
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl"
+              className="hover:text-black text-[#2B3C96] md:text-xl"
             >
               Classified App Revolutionises Classified advertising online
             </a>
-            <p className="text-[#747489]">
+            <p>
               The Evolution of Classifieds from Print to Digital If there’s one
               trend that has really caught up in the recent times, it is the
               trend of digital advertisement. With each passing day, businesses,
@@ -128,34 +128,34 @@ export default function Classified() {
               adverts and are increasingly shifting towards digital adverts to
               attract their audience from [...]
             </p>
-            <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">
               <Image
                 src="/assets/classified2.jpg"
                 alt="..."
-                className="h-40 w-96"
+                className="h-52 md:w-full w-auto"
                 height={40}
                 width={300}
               />
             </p>
             <a
               href=""
-              className="text-[#333333] hover:text-[#479DE2] md:text-xl "
+              className="hover:text-black text-[#2B3C96] md:text-xl "
             >
               Free Classifieds simplified on WorkApp
             </a>
-            <p className="text-[#747489]">
+            <p>
               Free Classifieds simplified on WorkApp Globally Not so long ago,
               if you had wanted to buy used (or new) goods such as a car, TV,
               lounge suite etc, you would look at the Classifieds section of
               your local newspaper or the community noticeboard at your local
               shopping centre. The same process applied if you wanted [...]
             </p>
-            <button className="md:ml-40 ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
