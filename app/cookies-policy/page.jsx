@@ -2,20 +2,20 @@ import React from 'react'
 
 function Cookies() {
   return (
-    <div className='min-h-screen mx-auto'>
+    <div className='min-h-screen mx-auto bg-[#ffffff]'>
       <div className="bg-[url('https://workapp.world/v2_assets/slider/term-cond.jpg')] md:h-72 h-60 flex justify-start bg-cover bg-center">
-        <div className="absolute flex justify-center items-center md:mt-14 mt-5 ml-20 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white md:text-3xl text-sm">
+        <div className="absolute flex justify-center items-center md:mt-14 mt-5 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white">
             <h1 className="my-5 mx-5">
                 Classified-App
             </h1>
         </div>
       </div>
         <div>
-            <div className='w-4/5 shadow-md h-auto m-auto mb-10'>
+            <div className='w-4/5 shadow-md h-auto py-5 m-auto bg-[#F4F5F7] text-black'>
                 <div className='text-center text-white bg-slate-400 w-full h-16 mt-3 pt-3'>
-                    Cookies Policy
+                    <h1>Cookies Policy</h1>
                 </div>
-                <div className='grid grid-col-1 justify-center text-start h-auto'>
+                <div className='grid grid-col-1 justify-center m-5 h-auto'>
                     <h1>1. Cookies Policy</h1> <br />
                     <p>
                         Thanks for visiting our Cookies Policy (Policy),
@@ -26,13 +26,13 @@ function Cookies() {
                         Information in accordance with our Privacy Policy.
                     </p>
                 </div>
-                <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
+                <div className='grid grid-col-1 justify-center m-5 h-auto mt-5'>
                     <h1>2. What are cookies?</h1> <br />
                     <p>
                     Cookies are small text files that are placed on your computer by the websites you visit. They are processed and stored by your web browser. In and of themselves, cookies are harmless and serve crucial functions for websites. When you visit a website or engage with a business through social media, certain information is collected. This is generally anonymous information and it does not reveal your identity. They are widely used in order to make websites work more efficiently and improve the user experience, as well as to provide information about the use of a website.
                     </p>
                 </div>
-                <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
+                <div className='grid grid-col-1 justify-center m-5 h-auto mt-5'>
                     <h1>3. What type of cookies does WorkApp use?</h1> <br />
                     <p>
                     These allow us to recognise and count the number of visitors and to see how visitors move
@@ -49,7 +49,7 @@ function Cookies() {
                     you more relevant to your interests.
                     </p>
                 </div>
-                <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
+                <div className='grid grid-col-1 justify-center m-5 h-auto mt-5'>
                     <h1>4. Why does Classified App use cookies?</h1> <br />
                     <p>
                     By storing and using information about your use of our website,
@@ -59,7 +59,7 @@ function Cookies() {
                     tracking in order to present you with more relevant listings.
                     </p>
                 </div>
-                <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
+                <div className='grid grid-col-1 justify-center m-5 h-auto mt-5'>
                     <h1>5. Third party cookies</h1> <br />
                     <p>
                     Third-party advertisers and other organizations may also use their own cookies to collect
@@ -72,7 +72,7 @@ function Cookies() {
                     We may not control these third party cookies and their use may be governed by the privacy policies of those third parties.
                     </p>
                 </div>
-                <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
+                <div className='grid grid-col-1 justify-center mx-5 h-auto mt-5'>
                     <h1>6. How can I remove cookies?</h1> <br />
                     <p>
                     Your web browser can choose whether or not to accept cookies. Most web browser software is initially set up to accept them.
