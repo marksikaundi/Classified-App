@@ -16,20 +16,20 @@ function page() {
           BLOGS
         </h1>
         <div className="text-black flex justify-center text-center md:flex-row flex-col md:divide-x-2 divide-[#333333] space-x-5">
-          <a href="" className="md:mt-0 mt-3 pl-5">Businesses</a>
-          <a href="" className="md:pl-5">
+          <a href="/business" className="md:mt-0 mt-3 pl-5">Businesses</a>
+          <a href="/workers" className="md:pl-5">
             Workers
           </a>
-          <a href="" className="md:pl-5">
+          <a href="/jobs" className="md:pl-5">
             Jobs
           </a>
-          <a href="" className="md:pl-5">
+          <a href="Classified" className="md:pl-5">
             Classified
           </a>
           <a href="" className="md:pl-5">
             Community and Events
           </a>
-          <a href="" className="md:pl-5">
+          <a href="/messaging" className="md:pl-5">
             Messaging
           </a>
         </div>

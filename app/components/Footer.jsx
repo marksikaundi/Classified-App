@@ -34,7 +34,7 @@ function Footer() {
             <a href="/jobs">Jobs</a>
           </li>
           <li>
-            <a href="/community">Community</a>
+            <a href="/community-events">Community</a>
           </li>
           <li>
             <a href="/classifieds">Classifieds</a>
