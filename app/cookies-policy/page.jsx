@@ -12,12 +12,12 @@ function Cookies() {
       </div>
         <div>
             <div className='w-4/5 shadow-md h-auto m-auto mb-10'>
-                <div className='text-center text-white bg-slate-400 w-full h-16 mt-3 pt-3'>
-                    Cookies Policy
+                <div className='text-center text-black bg-slate-400 w-full h-16 mt-3 pt-3'>
+                    <h1>Cookies Policy</h1>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto'>
                     <h1>1. Cookies Policy</h1> <br />
-                    <p>
+                    <p className='text-[#333333]'>
                         Thanks for visiting our Cookies Policy (Policy),
                         we are WorkApp Pty Ltd ACN 163 385 804 of Level 52, 111 Eagle Street,
                         Brisbane, QLD 4000 Australia (WorkApp, we, our, us and other similar terms).
@@ -28,13 +28,13 @@ function Cookies() {
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
                     <h1>2. What are cookies?</h1> <br />
-                    <p>
+                    <p className='text-[#333333]'>
                     Cookies are small text files that are placed on your computer by the websites you visit. They are processed and stored by your web browser. In and of themselves, cookies are harmless and serve crucial functions for websites. When you visit a website or engage with a business through social media, certain information is collected. This is generally anonymous information and it does not reveal your identity. They are widely used in order to make websites work more efficiently and improve the user experience, as well as to provide information about the use of a website.
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
                     <h1>3. What type of cookies does WorkApp use?</h1> <br />
-                    <p>
+                    <p className='text-[#333333]'>
                     These allow us to recognise and count the number of visitors and to see how visitors move
                     around our website when they are using it. This helps us to improve the way our website works,
                     for example, by ensuring that users are able to find what they are looking for easily.
@@ -51,7 +51,7 @@ function Cookies() {
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
                     <h1>4. Why does Classified App use cookies?</h1> <br />
-                    <p>
+                    <p className='text-[#333333]'>
                     By storing and using information about your use of our website,
                     including preferences and habits, we are able to make your visit to our website
                     more productive. For example, some cookies remember your language or preferences so
@@ -61,7 +61,7 @@ function Cookies() {
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
                     <h1>5. Third party cookies</h1> <br />
-                    <p>
+                    <p className='text-[#333333]'>
                     Third-party advertisers and other organizations may also use their own cookies to collect
                     information about your activities on our website and/or their listings you have clicked on.
                     This information, which may be combined with other information acquired from third parties, may be
@@ -74,7 +74,7 @@ function Cookies() {
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
                     <h1>6. How can I remove cookies?</h1> <br />
-                    <p>
+                    <p className='text-[#333333]'>
                     Your web browser can choose whether or not to accept cookies. Most web browser software is initially set up to accept them.
                     If you do not want your browser to use cookies, you can manage and control their use through your browser,
                     including removing cookies by deleting them from your "browser history" (cache) when you leave the site.

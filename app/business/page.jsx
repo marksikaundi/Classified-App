@@ -66,7 +66,7 @@ export default function Businesses() {
           </div>
           <div className="flex flex-col items-center">
             <div className="relative overflow-hidden md:w-96 w-60 h-auto border rounded-tl-lg rounded-br-lg border-[#D8D8D8] bg-[#F4F5F7] shadow-md">
-              <p className="text-[#797979] flex justify-center lg:mt-14 md:mt-5 mt-5 md:text-base lg:text-xl italic mx-3">
+              <p className="text-[#333333] flex justify-center lg:mt-14 md:mt-5 mt-5 md:text-base italic mx-3">
                 {testimonials[currentSlide].text}
               </p>
               <div className="my-5 md:my-5 flex justify-center">
@@ -90,7 +90,7 @@ export default function Businesses() {
         </div>
       </div>
       <div className="bg-[#F4F5F7] md:py-10 py-5">
-        <h1 className="flex justify-center md:mb-10 mb-5 md:text-3xl text-base text-[#333333]">
+        <h1 className="flex justify-center md:mb-10 mb-5 md:text-3xl text-base text-black">
           ADD YOUR BUSINESS IN 3 EASY STEPS
         </h1>
         <div className="flex md:flex-row flex-col md:space-x-5 space-y-5 md:space-y-0 justify-center mx-10 md:mx-20 md:mb-5">
@@ -98,7 +98,7 @@ export default function Businesses() {
             <h1 className="text-[#333333] text-xl md:mb-3 mb-1">
               Download Classified App
             </h1>
-            <p className="text-[#747489]">
+            <p className="text-[#333333]">
               Simply download ClassfiedApp from the App Store, Google play or on
               desktop via our ClassfiedApp for the Web platform, and you’re ready to
               go.
@@ -108,7 +108,7 @@ export default function Businesses() {
             <h1 className="text-[#333333] text-xl md:mb-3 mb-1">
               Create your first business Profile
             </h1>
-            <p className="text-[#747489]">
+            <p className="text-[#333333]">
               Add your business name, description, contact details, logo and
               additional images of your portfolio. You can also activate PayPal
               and open your first ClassfiedApp digital shop or simply link to your
@@ -119,7 +119,7 @@ export default function Businesses() {
             <h1 className="text-[#333333] text-xl md:mb-3 mb-1">
               Add Extra Value
             </h1>
-            <p className="text-[#747489]">
+            <p className="text-[#333333]">
               Choose Edit Profile to add new products, promotions and job
               vacancies to your business profile. Remember to refresh your
               ClassfiedApp business listing every 30 days.
@@ -129,12 +129,12 @@ export default function Businesses() {
       </div>
       <div className="py-10 md:mx-40 mx-10">
         <div className="flex md:flex-row flex-col justify-center md:space-x-5 space-y-5 md:space-y-0 md:my-10">
-          <div className="space-y-3">
+          <div className="space-y-3 text-center">
             <p className="md:mb-5 mb-2">
               <Image
                 src="/assets/shane-article.jpg"
                 alt="..."
-                className="h-40 w-96"
+                className="h-52 w-full"
                 height={40}
                 width={300}
               />
@@ -145,21 +145,21 @@ export default function Businesses() {
             >
               Free Advertising!No Strings Attached
             </a>
-            <p className="text-[#747489]">
+            <p className="text-[#333333]">
               - By Mark Sikaundi, CEO There are many great things about my role
               as the CEO of DevCircle Africa. I get to work with an amazing team of
               professionals who give 110% every day and are [...]
             </p>
-            <button className="ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className="mx-auto border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 text-center">
             <p className="md:mb-5 mb-2">
               <Image
                 src="/assets/12.png"
                 alt="..."
-                className="h-40 w-96"
+                className="h-52 w-full"
                 height={40}
                 width={300}
               />
@@ -170,13 +170,13 @@ export default function Businesses() {
             >
               Lessons learned from 6 Years in Enterprenuer Land
             </a>
-            <p className="text-[#747489]">
+            <p className="text-[#333333]">
               Next month marks the 6th anniversary of the DevCircle Africa story - an
               amazing journey from a simple idea to a fully functioning,
               revolutionary platform growing stronger by the day. So, I’ve been
               reflecting on the lessons learned [...]
             </p>
-            <button className="md:ml-40 ml-20 border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
+            <button className=" m-auto border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] text-[#333333] rounded-lg h-10 w-40">
               <p className="mx-8 my-2">Read More</p>
             </button>
           </div>
@@ -185,10 +185,10 @@ export default function Businesses() {
       <div className="bg-[#EFF0F2] flex md:flex-row flex-col">
         <div className="bg-[url('/assets/business_iphns.png')] bg-no-repeat md:h-96 h-80 w-auto md:w-1/2"></div>
         <div className="flex flex-col mx-10 my-10">
-          <h1 className="text-[#6D6E71] md:text-3xl text-2xl">
+          <h1 className="text-[#333333] md:text-3xl text-2xl">
             On-the-go and need<br></br> local Workers?
           </h1>
-          <p className="flex mt-5 text-[#6D6E71]">
+          <p className="flex mt-5 text-[#333333]">
             Find and connect with local Workers.<br></br> Read rating and
             reviews, view their skills,<br></br> and availability. Make contact
             instantly.<br></br> ClassifiedApp, results for the here and now.
