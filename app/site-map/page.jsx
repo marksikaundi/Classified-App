@@ -3,6 +3,12 @@ import React from "react";
 function page() {
   return (
     <div className="min-h-screen mx-auto bg-[#F1F2F2]">
+      <div className="m-10 text-base pt-0">
+        <p>
+          Here you can easily navigate to any page on our website. If you have a
+          question, please visit our{" forum.devcircleafrica.com"}
+        </p>
+      </div>
       <div className="flex mx-20 md:mx-40 justify-start py-10">
         <ul className="list-disc text-black">
           <li>
@@ -16,18 +22,12 @@ function page() {
             </a>
           </li>
           <li>
-            <a
-              href="/business"
-              className=" text-black hover:text-[#079DE2]"
-            >
+            <a href="/business" className=" text-black hover:text-[#079DE2]">
               Businesses
             </a>
           </li>
           <li>
-            <a
-              href="/classifieds"
-              className=" text-black hover:text-[#079DE2]"
-            >
+            <a href="/classifieds" className=" text-black hover:text-[#079DE2]">
               Classifieds
             </a>
           </li>
@@ -40,10 +40,7 @@ function page() {
             </a>
           </li>
           <li>
-            <a
-              href="/contact-us"
-              className=" text-black hover:text-[#079DE2]"
-            >
+            <a href="/contact-us" className=" text-black hover:text-[#079DE2]">
               Contact Us
             </a>
           </li>
@@ -68,10 +65,7 @@ function page() {
             </a>
           </li>
           <li>
-            <a
-              href="/messaging"
-              className=" text-black hover:text-[#079DE2]"
-            >
+            <a href="/messaging" className=" text-black hover:text-[#079DE2]">
               Messaging
             </a>
           </li>
@@ -92,10 +86,7 @@ function page() {
             </a>
           </li>
           <li>
-            <a
-              href="/whats-fresh"
-              className=" text-black hover:text-[#079DE2]"
-            >
+            <a href="/whats-fresh" className=" text-black hover:text-[#079DE2]">
               What's Fresh
             </a>
           </li>

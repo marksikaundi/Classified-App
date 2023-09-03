@@ -6,7 +6,7 @@ function Privacy() {
       <div className="bg-[url('/assets/term-cond.jpg')] md:h-72 h-60 flex justify-start bg-cover bg-center">
         <div className="absolute flex justify-center items-center md:mt-14 mt-5 ml-10 md:ml-40 bg-gray-500 border-none bg-opacity-50 md:h-52 h-20 md:w-96 w-auto text-white">
             <h1 className="my-5 mx-5">
-                Classified-App
+                Classified App
             </h1>
         </div>
       </div>

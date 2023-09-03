@@ -7,13 +7,13 @@ const testimonials = [
   {
     id: 1,
     name: "Ann, Graceville Bike Shop - Brisbane, Australia",
-    text:`“I was looking for a casual job as a cleaner for a few months when a friend informed me to create a Worker Profile on WorkApp. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through WorkApp Messaging and got the job I was looking for.”`,
+    text:`“I was looking for a casual job as a cleaner for a few months when a friend informed me to create a Worker Profile on Classified App. I did as he suggested and since it was free, I had nothing to lose. Within days, I received an enquiry through Classified AppMessaging and got the job I was looking for.”`,
     Image: '/assets/about.jpg'
   },
   {
     id: 2,
     name: "Mikey, Tattoos at Mates Rates - Gold Coast, Australia",
-    text: `“I downloaded WorkApp today and created my business profile, complete with portfolio of my work . Within five hours I received an enquiry and my first tattoo client from WorkApp. Since WorkApp doesn’t charge any fees or commissions, it didn’t cost me a cent to make money today. Thank you WorkApp.”`,
+    text: `“I downloaded Classified App today and created my business profile, complete with portfolio of my work . Within five hours I received an enquiry and my first tattoo client from Classified App. Since Classified App doesn’t charge any fees or commissions, it didn’t cost me a cent to make money today. Thank you WorkApp.”`,
     Image: '/assets/kingoo.png'
   },
 ];
@@ -42,11 +42,11 @@ export default function About() {
         <div className='grid grid-rows-1 text-black w-4/5 items-center'>
           <h1 className='text-center'>ABOUT US</h1>
           <p className='md:w-2/4 lg:w-4/5 text-center m-auto mb-8 leading-normal'>
-            WorkApp is an exciting new way to connect people for a wide range of everyday personal <br />
+          Classified App is an exciting new way to connect people for a wide range of everyday personal <br />
             and professional activities - all in one place. Finally, a single application bundles many common functions <br />
-            you may already use into one multi-device platform. And most importantly, WorkApp’s innovative ‘refresh’
+            you may already use into one multi-device platform. And most importantly, Classified App innovative ‘refresh’
             technology puts the power to succeed in your hands. <br />
-            Thousands of work hours have gone into the creation of WorkApp so it can go to work for you! <br />
+            Thousands of work hours have gone into the creation of Classified App so it can go to work for you! <br />
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function About() {
               </h1>
               <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
               We want to connect people for work, business and community needs on a truly level playing field.
-              WorkApp rewards genuine effort by individuals and business owners.
+              Classified App rewards genuine effort by individuals and business owners.
               It takes the power to influence search away from those who can afford to pay and gives everyone
               an equal opportunity to rise to the top of search results.
               </p>
@@ -68,7 +68,7 @@ export default function About() {
                 OUR VISION
               </h1>
               <p className='md:w-2/4 lg:w-4/5 text-center m-auto leading-normal'>
-                The WorkApp vision is to simplify and consolidate your use of mobile apps so you can focus on
+                The Classified App vision is to simplify and consolidate your use of mobile apps so you can focus on
                 growing your business and personal prosperity. We see a future where hardworking people can harness
                 all the power of the internet to create communities, conduct business and connect with each other – all
                 for free.
@@ -138,19 +138,19 @@ export default function About() {
           <div className="md:w-3/5 w-auto ">
             <Panel title="What is Classified App?">
               <p>
-                WorkApp is an integrated App designed for iOS, Android and Web
+              Classified App is an integrated App designed for iOS, Android and Web
                 Browsers that combines a<br></br> number of features to make it
                 easier and simpler for you to conduct business, communicate with
                 <br></br> people and actively engage with your local community.
-                WorkApp works for Businesses,<br></br> Communities and
+                Classified App works for Businesses,<br></br> Communities and
                 individuals alike and there are no fees, charges or commissions
-                payable. You<br></br> will have to see WorkApp to appreciate the
+                payable. You<br></br> will have to see Classified App to appreciate the
                 many benefits you can derive from this unique platform.
               </p>
             </Panel>
             <Panel title="Why is it different from other apps out there?">
               <p>
-                WorkApp is the only App globally that integrates a number of
+              Classified App is the only App globally that integrates a number of
                 functions into a single App.<br></br>Businesses can sell
                 product, advertise their business, list job vacancies and find
                 workers - all for<br></br> free. Individuals can find vacancies,
@@ -160,17 +160,17 @@ export default function About() {
                 members, promote events and sell tickets. Overlaying all these
                 rich features is<br></br> a fully functional messaging platform
                 where you can chat with friends and family, send audio,<br></br>{" "}
-                video and photos. No other App currently does all that WorkApp
+                video and photos. No other App currently does all that Classified App
                 offers.
               </p>
             </Panel>
             <Panel title="Who can use Classified App?">
               <p>
-                WorkApp is available now for download Globally from App Store
+              Classified App is available now for download Globally from App Store
                 and Google’s Play Store.<br></br> Alternatively you get started
-                with the web version. WorkApp is a single App with features for
+                with the web version. Classified App is a single App with features for
                 <br></br> businesses and individuals alike. Enjoy using your
-                WorkApp.
+                Classified App.
               </p>
             </Panel>
           </div>

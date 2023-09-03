@@ -13,14 +13,14 @@ export default function Conditions() {
             <h2 className="font-bold">1. The Agreement</h2>
             <p>
               Thanks for visiting our terms of use (<strong>Agreement</strong>),
-              we are WorkApp Pty. Ltd. ACN 163 385 804 (<strong>we</strong>,{" "}
+              we are Classified App Pty. Ltd. ACN 163 385 804 (<strong>we</strong>,{" "}
               <strong>our</strong>, <strong>us</strong> and other similar
               terms). These terms govern your access to and use of our mobile
-              applications and web interface, together known as WorkApp (
-              <strong>WorkApp</strong>). WorkApp provides you with the ability
+              applications and web interface, together known as Classified App (
+              <strong>Classified App</strong>). Classified App provides you with the ability
               to interact with our online global marketplace which aims to
               connect people for prosperity (<strong>Marketplace</strong>). By
-              using WorkApp or our Marketplace, you agree to comply with and be
+              using Classified App or our Marketplace, you agree to comply with and be
               legally bound by the terms and conditions of this Agreement. If
               you do not agree to these terms, you have no right to continue
               using our products or services. this Agreement. If you do not
@@ -29,15 +29,15 @@ export default function Conditions() {
             </p>
             <p>
               It is your obligation to ensure that you have read, understood and
-              agree to the most recent terms available at https://workapp.world/
-              (<strong>Website</strong>). You must not use WorkApp or the
+              agree to the most recent terms available at https://Classified App.world/
+              (<strong>Website</strong>). You must not use Classified App or the
               Marketplace if you are not able to form legally binding contracts
               or are under the age of 13. Those users aged between 13 and 17
-              (inclusive) must use WorkApp under supervision of a parent or
+              (inclusive) must use Classified under supervision of a parent or
               guardian.
             </p>
             <p>
-              Please email us at info@workapp.world if you have any questions
+              Please email us at info@classied.world if you have any questions
               relating to these terms of use.
             </p>
             <h2 className="font-bold">2. Disclaimer</h2>
@@ -63,14 +63,14 @@ export default function Conditions() {
               users and not us; and
             </p>
             <p className="font-bold">
-              (e) WorkApp and our Marketplace may from time to time contain bugs
+              (e) Classified App and our Marketplace may from time to time contain bugs
               and errors which do not substantially interfere with its normal
               operations.
             </p>
             <h2 className="font-bold">3. User Account</h2>
             <h3 className="font-bold">3.1 Accessing Classified App</h3>
             <p>
-              You acknowledge and agree that to make use of WorkApp, you are
+              You acknowledge and agree that to make use of Classified App, you are
               required to provide us with personal information and create an
               account with us (Account). We reserve the right to reject any new
               Account in our absolute discretion.
@@ -78,7 +78,7 @@ export default function Conditions() {
             <p>
               In creating an Account, you must provide any information
               reasonably requested by us for the purpose of operating the
-              Marketplace and WorkApp. You warrant:
+              Marketplace and Classified App. You warrant:
             </p>
             <div className="font-bold">
               <p>
@@ -93,7 +93,7 @@ export default function Conditions() {
             </div>
             <h3 className="font-bold">3.2 Security responsibilities</h3>
             <p>
-              We will take reasonable steps to ensure WorkApp and our
+              We will take reasonable steps to ensure Classified App and our
               Marketplace is secure from unauthorised access consistent with
               generally accepted industry standards. You must take all
               reasonable steps to ensure usernames and passwords are not
@@ -104,11 +104,11 @@ export default function Conditions() {
             <p>
               Subject to clause 8 (App Store Providers), we grant you a
               non-transferrable, non-exclusive, non-sublicensable, worldwide,
-              royalty free and revocable licence to use WorkApp, on the terms
+              royalty free and revocable licence to use Classified App, on the terms
               contained in this Agreement (Licence).
             </p>
             <p>
-              We reserve the right to limit or suspend your access to WorkApp
+              We reserve the right to limit or suspend your access to Classified App
               and alter the Account information, if in our reasonable opinion:
             </p>
             <div className="font-bold">
@@ -135,7 +135,7 @@ export default function Conditions() {
             <h3 className="font-bold">5.1 Accessing the Marketplace</h3>
             <p>You acknowledge and agree:</p>
             <p>
-              (a) you must only access the Marketplace via our WorkApp
+              (a) you must only access the Marketplace via our Classified App
               interfaces and not by any third-party application or automated
               means; and
             </p>
@@ -144,7 +144,7 @@ export default function Conditions() {
               will not be available locally.
             </p>
             <p>
-              In order to make full use of mobile versions of WorkApp you must
+              In order to make full use of mobile versions of Classified App you must
               allow your device access to the following services:
             </p>
             <div className="font-bold">
@@ -198,7 +198,7 @@ export default function Conditions() {
               </p>
               <p>(c) grant access to your Account to any other person;</p>
               <p>
-                (d) not use the job advertisement feature on WorkApp for any
+                (d) not use the job advertisement feature on Classified App for any
                 purpose other than genuinely seeking to fill a current role;
               </p>
               <p>(e) provide false or misleading information;</p>
@@ -230,10 +230,10 @@ export default function Conditions() {
             </div>
             <h2 className="font-bold">6. Maintenance updates and support</h2>
             <h3 className="font-bold">
-              6.1 The Marketplace and WorkApp is reliant on third parties
+              6.1 The Marketplace and Classified App is reliant on third parties
             </h3>
             <p>
-              Parts of WorkApp and our Marketplace are operated from information
+              Parts of Classified App and our Marketplace are operated from information
               and communication technology infrastructure owned and controlled
               by third parties, such as Amazon Web Services. While we endeavour
               to provide a high availability system, where there are faults in
@@ -242,16 +242,16 @@ export default function Conditions() {
             <h2 className="font-bold">6.2 Amendments to the Marketplace</h2>
             <p>
               You acknowledge and agree there may be technical or administrative
-              errors associated with WorkApp and our Marketplace. We reserve the
+              errors associated with Classified App and our Marketplace. We reserve the
               right to upgrade, maintain, tune, backup, amend, add to or remove
               content from, redesign, improve, take offline or otherwise alter
-              both the Marketplace and WorkApp at our sole and absolute
+              both the Marketplace and Classified App at our sole and absolute
               discretion.
             </p>
             <p>
               We may remotely deploy updates which must be installed in order
-              for you to continue to use WorkApp. Where an update is required,
-              and you do not accept it, you may not be able to use WorkApp or
+              for you to continue to use Classified App. Where an update is required,
+              and you do not accept it, you may not be able to use Classified App or
               access the Marketplace via the mobile apps until you install that
               update.
             </p>
@@ -259,7 +259,7 @@ export default function Conditions() {
               6.3 Inaccessibility of the Marketplace
             </h2>
             <p>
-              We reserve the right to make WorkApp and our Marketplace
+              We reserve the right to make Classified App and our Marketplace
               inaccessible, as required for upgrades, maintenance and updates.
               From time to time, without notice, access to all or part of our
               Marketplace may be disrupted or limited. During such an
@@ -268,8 +268,8 @@ export default function Conditions() {
             </p>
             <h2 className="font-bold">6.4 Support</h2>
             <p>
-              We provide support for WorkApp via our Website and email
-              support@workapp.world
+              We provide support for Classified App via our Website and email
+              support@Classified App.world
             </p>
             <h1 className="font-bold">
               7. Submitted content 7.1 User listings
@@ -294,7 +294,7 @@ export default function Conditions() {
               submitted by you. However, we reserve the right to use the content
               you submit for the purpose of operating our services globally. It
               is entirely your responsibility to keep copies of any content
-              uploaded via WorkApp and you must not rely on us storing copies
+              uploaded via Classified App and you must not rely on us storing copies
               for you.
             </p>
             <p>
@@ -304,7 +304,7 @@ export default function Conditions() {
             <h1 className="font-bold">7.2 Duration of listing</h1>
             <p>
               We may, in our sole discretion set and amend time limits for any
-              category of listing via WorkApp and our Marketplace. Upon the
+              category of listing via Classified App and our Marketplace. Upon the
               expiry of those time limits the content may be no longer visible
               to other users or may be deleted. Where permissible you may
               re-activate your listing in order for it to remain visible to
