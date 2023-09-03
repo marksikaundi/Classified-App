@@ -40,9 +40,6 @@ function Footer() {
             <a href="/classifieds">Classifieds</a>
           </li>
           <li>
-            <a href="/wanted">Wanted</a>
-          </li>
-          <li>
             <a href="/site-map">Site Map</a>
           </li>
         </ul>
