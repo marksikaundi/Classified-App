@@ -12,11 +12,11 @@ function page() {
         </div>
       </div>
       <div className="pt-5 pb-10 md:mx-10 lg:mx-40 mx-5 space-y-5 md:space-y-10">
-        <h1 className="text-black flex justify-center mt-5">
-          BLOGS
-        </h1>
+        <h1 className="text-black flex justify-center mt-5">BLOGS</h1>
         <div className="text-black flex justify-center text-center md:flex-row flex-col md:divide-x-2 divide-[#333333] space-x-5">
-          <a href="/business" className="md:mt-0 mt-3 pl-5">Businesses</a>
+          <a href="/business" className="md:mt-0 mt-3 pl-5">
+            Businesses
+          </a>
           <a href="/workers" className="md:pl-5">
             Workers
           </a>
@@ -68,15 +68,12 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Lessons Learned from 6 Years in Entrepreneur Land
             </a>
             <p>
-              Next month marks the 6th anniversary of the Classified App story - an
-              amazing journey from a simple idea to a fully functioning,
+              Next month marks the 6th anniversary of the Classified App story -
+              an amazing journey from a simple idea to a fully functioning,
               revolutionary platform growing stronger by [...]
             </p>
             <button className="border border-[#333333] hover:border-[#479DE2] hover:text-[#479DE2] rounded-lg h-10 w-40">
@@ -95,10 +92,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Big Future for Mortgage Brokers on Classified App
             </a>
             <p className="text-center">
@@ -120,10 +114,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               From the Fans: 10 reasons why you should use Classified App
             </a>
             <p>
@@ -147,10 +138,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               From the Fans: NEW BUSINESS PLATFORM GOING VIRAL!
             </a>
             <p className="text-center">
@@ -172,10 +160,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Why Smart Event Organisers Use Classified App
             </a>
             <p>
@@ -199,10 +184,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Keep All The Profits From Your Hard Work
             </a>
             <p className="text-center">
@@ -224,10 +206,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Looking for Candidates just got exciting
             </a>
             <p>
@@ -251,10 +230,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Promote Your Business
             </a>
             <p className="text-center">
@@ -276,10 +252,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Classified App - Your Integrated Business Solution
             </a>
             <p>
@@ -303,10 +276,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Community Organisations and Volunteers
             </a>
             <p>
@@ -328,10 +298,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Classified App for Community and Events
             </a>
             <p>
@@ -355,10 +322,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Classified App is an Integrated, Interactive Messaging App too
             </a>
             <p>
@@ -380,10 +344,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Free Classifieds simplified on Classified App
             </a>
             <p>
@@ -407,10 +368,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Filling Job Vacancies with Classified App
             </a>
             <p>
@@ -432,10 +390,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Classified App Messaging integrates with Business and Classifieds
             </a>
             <p>
@@ -459,10 +414,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Creating Multiple Worker Profiles Using Classified App
             </a>
             <p>
@@ -484,10 +436,7 @@ function page() {
                 width={300}
               />
             </p>
-            <a
-              href=""
-              className="hover:text-black text-[#2B3C96] md:text-xl"
-            >
+            <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
               Classified App Revolutionises Classified advertising online
             </a>
             <p>
@@ -500,6 +449,7 @@ function page() {
             </button>
           </div>
         </div>
+
         <div className="flex md:flex-row flex-col justify-start space-y-5 md:space-y-0 md:my-10 text-black">
           <div className="space-y-5 text-center">
             <p className="md:mb-8 mb-2">

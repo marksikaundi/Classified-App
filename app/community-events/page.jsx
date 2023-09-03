@@ -16,14 +16,14 @@ function page() {
         <div className="text-black">
           <h1 className="text-center my-5">COMMUNITY AND EVENTS</h1>
           <p className="md:w-2/4 lg:w-4/5 text-center m-auto mb-8 leading-normal">
-            WorkApp is a free community creation and events platform like no
+            Classified App is a free community creation and events platform like no
             other. Use the App to create an individual or community profile to
             showcase yourself or your organization. List your free or paid event
-            on WorkApp, complete with ticket information and optional PayPal
-            purchasing. Utilise WorkApp’s unique groups function to share your
+            on Classified App, complete with ticket information and optional PayPal
+            purchasing. Utilise Classified App unique groups function to share your
             event with a select group of contacts. Search for local
             entertainment, community, family and sporting events. Volunteer your
-            services or search WorkApp to connect with volunteers for your
+            services or search Classified App to connect with volunteers for your
             community or cause.
           </p>
         </div>
@@ -80,11 +80,11 @@ function page() {
               />
             </p>
             <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
-              WorkApp for Community and Events
+            Classified App for Community and Events
             </a>
             <p>
-              Workapp Is the platform of choice for Community Groups and Events
-              WorkApp is an application that has been created for worldwide use,
+            Classified App Is the platform of choice for Community Groups and Events
+            Classified App is an application that has been created for worldwide use,
               and the concept behind the development was to create a unique way
               for [...]
             </p>
@@ -128,12 +128,12 @@ function page() {
               />
             </p>
             <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
-              From the Fans: 10 reasons why you should use WorkApp
+              From the Fans: 10 reasons why you should use Classified App
             </a>
             <p>
               One of our delighted fans in Romania, Andrada Anitei, recently
               posted an article in LinkedIn and a blog on her website about
-              WorkApp. We love it when people around the globe get real value
+              Classified App. We love it when people around the globe get real value
               from our platform. You can check their website out here. You have
               probably seen me promoting AND using this new-edge platform for
               almost [...]
@@ -153,7 +153,7 @@ function page() {
               />
             </p>
             <a href="" className="hover:text-black text-[#2B3C96] md:text-xl">
-              Why Smart Event Organisers Use WorkApp
+              Why Smart Event Organisers Use Classified App
             </a>
             <p>
               Life is so busy for most people these days that working out
