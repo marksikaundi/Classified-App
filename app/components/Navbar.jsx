@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -21,7 +22,6 @@ function Navbar() {
     { id: 8, text: "What's Fresh", href: "/whats-fresh" },
     { id: 9, text: "About Us", href: "/about" },
     { id: 10, text: "Blog", href: "/blog" },
-    // Add more navigation links as needed
   ];
 
   return (
@@ -43,6 +43,9 @@ function Navbar() {
         </nav>
       </ul>
 
+<div className="left-0 mt-5 ml-5 text-white md:hidden"> 
+  <FaLongArrowAltRight size={30} />
+</div>
       {/* mobile button */}
       <div
         onClick={handleNav}
