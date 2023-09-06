@@ -21,7 +21,6 @@ function Navbar() {
     { id: 8, text: "What's Fresh", href: "/whats-fresh" },
     { id: 9, text: "About Us", href: "/about" },
     { id: 10, text: "Blog", href: "/blog" },
-    // Add more navigation links as needed
   ];
 
   return (
