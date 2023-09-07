@@ -14,13 +14,13 @@ export default function Faqs() {
           <div className="flex flex-col py-5">
             <Panel title="What is Classified App?">
               <p>
-                WorkApp is an integrated App designed for iOS, Android and Web
+                Classified App is an integrated App designed for iOS, Android and Web
                 Browsers that combines a<br></br> number of features to make it
                 easier and simpler for you to conduct business, communicate with
                 <br></br> people and actively engage with your local community.
-                WorkApp works for Businesses,<br></br> Communities and
+                Classified App works for Businesses,<br></br> Communities and
                 individuals alike and there are no fees, charges or commissions
-                payable. You<br></br> will have to see WorkApp to appreciate the
+                payable. You<br></br> will have to see Classified App to appreciate the
                 many benefits you can derive from this unique platform.
                 <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
@@ -31,7 +31,7 @@ export default function Faqs() {
             </Panel>
             <Panel title="Why is it different from other apps out there?">
               <p>
-                WorkApp is the only App globally that integrates a number of
+                Classified App is the only App globally that integrates a number of
                 functions into a single App.<br></br>Businesses can sell
                 product, advertise their business, list job vacancies and find
                 workers - all for<br></br> free. Individuals can find vacancies,
@@ -41,7 +41,7 @@ export default function Faqs() {
                 members, promote events and sell tickets. Overlaying all these
                 rich features is<br></br> a fully functional messaging platform
                 where you can chat with friends and family, send audio,<br></br>{" "}
-                video and photos. No other App currently does all that WorkApp
+                video and photos. No other App currently does all that Classified App
                 offers.
                 <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
@@ -52,11 +52,11 @@ export default function Faqs() {
             </Panel>
             <Panel title="Who can use Classified App?">
               <p>
-                WorkApp is available now for download Globally from App Store
+                Classified App is available now for download Globally from App Store
                 and Google’s Play Store.<br></br> Alternatively you get started
-                with the web version. WorkApp is a single App with features for
+                with the web version. Classified App is a single App with features for
                 <br></br> businesses and individuals alike. Enjoy using your
-                WorkApp.
+                Classified App.
                 <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
@@ -64,14 +64,14 @@ export default function Faqs() {
                 </div>
               </p>
             </Panel>
-            <Panel title="Why do I have to register for WorkApp?">
+            <Panel title="Why do I have to register for Classified App?">
               <p>
                 Registration helps us to manage your data securely. You can
-                register with WorkApp using your Facebook login or by providing
+                register with Classified App using your Facebook login or by providing
                 an email and password. Registration is free and only takes a
                 minute. Once you are registered, all your data will be available
                 on any device you use. There is no cost for registering or using
-                WorkApp.
+                Classified App.
                 <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
                   <a href="">Download for Apple</a>
                   <a href="">Download for Android</a>
@@ -81,11 +81,11 @@ export default function Faqs() {
             </Panel>
             <Panel title="What is the purpose of the Refresh button?">
               <p>
-                The Refresh button is unique to WorkApp and ensures that the
-                Workapp User Community are only receiving the most current and
+                The Refresh button is unique to Classified App and ensures that the
+                Classified App User Community are only receiving the most current and
                 relevant data for their search. We have all been frustrated with
                 search results where we call the person to find that the item is
-                no longer available. WorkApp eliminates that problem. Take a
+                no longer available. Classified App eliminates that problem. Take a
                 second to refresh your post and get prioritised on the search
                 results. No need to pay to boost your post - simply press the
                 Refresh button.
@@ -98,7 +98,7 @@ export default function Faqs() {
             </Panel>
             <Panel title="What is the difference between a Profile and a Post?">
               <p>
-                A registered user in WorkApp can have unlimited Profiles and
+                A registered user in Classified App can have unlimited Profiles and
                 Posts. A Profile is a persona or entity that the person wishes
                 to promote. This can be one or more businesses or one or more
                 Worker Profiles - tailored for each type of work they seek.
@@ -112,7 +112,7 @@ export default function Faqs() {
                 </div>
               </p>
             </Panel>
-            <Panel title="When does WorkApp expire my Profiles and Posts?">
+            <Panel title="When does Classified App expire my Profiles and Posts?">
               <p>
                 Profiles and Posts have varying expiry times depending on the
                 type of profile or post. For example, Business and Community
@@ -132,11 +132,11 @@ export default function Faqs() {
             </Panel>
             <Panel title="Why do I have to specify Payment details?">
               <p>
-                WorkApp currently has PayPal integration to make it easier for
+                Classified App currently has PayPal integration to make it easier for
                 buyers to pay sellers. Other payment gateways will be added in
                 future releases. By specifying your preferred payment method in
                 Account Settings, the Buyers will know if you accept PayPal and
-                choose to pay you accordingly. WorkApp does not charge you any
+                choose to pay you accordingly. Classified App does not charge you any
                 fees or commissions and these details are not disclosed to
                 anyone except for payment processing purposes.
                 <div className="flex flex-row space-x-3 mt-5 text-[#2B3C96] underline underline-offset-6">
@@ -148,7 +148,7 @@ export default function Faqs() {
             </Panel>
             <Panel title="Why do I receive notifications at 6am and 12pm?">
               <p>
-                WorkApp notifications are sent at predetermined times as a
+                Classified App notifications are sent at predetermined times as a
                 reminder to Refresh your Profiles and Posts. 6am reminder is
                 important for Workers whose profiles expire that day and are
                 still available for work and 12pm is only sent if you
