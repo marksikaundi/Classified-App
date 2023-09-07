@@ -22,9 +22,9 @@ export default function Messaging() {
             your workmates, free messaging is all part of the Classified App
             service! As a single application that bundles so many previously
             separate functions in one place, it makes sense to also stay put
-            when you want to connect. WorkApp messaging is also fully integrated
+            when you want to connect. Classified App messaging is also fully integrated
             with all our other features. Create your first group today and share
-            WorkApp with family, friends and all your other contacts to get the
+            Classified App with family, friends and all your other contacts to get the
             conversation started!
           </p>
           <div className="border-none rounded-lg bg-[#E5E5E5] md:h-auto h-auto w-auto md:w-full">
