@@ -18,10 +18,10 @@ function Privacy() {
                 <div className='grid grid-col-1 justify-center text-start h-auto'>
                     <h1>1. Background</h1> <br />
                     <p>
-                    Thanks for visiting our Privacy Policy (Policy), we are WorkApp Pty Ltd ACN 163 385 804 of Level 52,
-                    111 Eagle Street, Brisbane, QLD 4000 Australia (<b>WorkApp, we, our, us and other similar terms</b>).
+                    Thanks for visiting our Privacy Policy (Policy), we are Classified App Pty Ltd ACN 163 385 804 of Level 52,
+                    111 Eagle Street, Brisbane, QLD 4000 Australia (<b>Classified App, we, our, us and other similar terms</b>).
                     We are committed to providing quality services to you and this policy outlines our ongoing
-                    obligations in respect of how we manage your Personal Information. It applies to our WorkApp
+                    obligations in respect of how we manage your Personal Information. It applies to our Classified App
                     Terms of Use, the Billboard Terms and Conditions and other agreements we may form with you.
                     </p>
                 </div>
@@ -45,7 +45,7 @@ function Privacy() {
                     <br />
                     <b>
                     (a) contact or correspond with us via email, text message, telephone or via our website; <br />
-                    (b) create an account on the WorkApp website or mobile application; <br />
+                    (b) create an account on the Classified App website or mobile application; <br />
                     (c) create a listing on our Marketplace; <br />
                     (d) subscribe to our newsletters or complete surveys and online forms; <br />
                     (e) seek support in relation to the platform; or <br />
@@ -70,7 +70,7 @@ function Privacy() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center text-start h-auto mt-5'>
-                    <h1>4. How WorkApp uses Personal Information <br /></h1>
+                    <h1>4. How Classified App uses Personal Information <br /></h1>
                       <h2>4.1 Why we collect Personal Information</h2> <br />
                     <p>
                     We collect your Personal Information for the primary purpose of providing
