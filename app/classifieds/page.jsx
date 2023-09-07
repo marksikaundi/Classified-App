@@ -16,25 +16,25 @@ export default function Classified() {
           CLASSIFIEDS
         </h1>
         <p className="text-black">
-          Buying, selling or renting? WorkApp is a free and effective
+          Buying, selling or renting? Classified App is a free and effective
           classifieds service that can put your ad at the top of the search
           results. Our custom built search engine uses refresh technology to
           show you the latest and most relevant items for sale. We instantly
           connect buyers and sellers in a one-stop online shop that charges no
           commissions or asks you to pay for the privilege of being seen. Start
-          sharing WorkApp with your family, friends and customers today and open
+          sharing Classified App with your family, friends and customers today and open
           the door to fast, free and fresh classifieds!
         </p>
       </div>
       <div className="bg-[#F4F5F7] py-20 text-black text-center">
         <div className="flex flex-col md:flex-row justify-center space-x-8 space-y-5 md:space-y-0 md:mx-40 mx-10">
           <div >
-            WorkApp creates a level playing field for buyers. Search by
+            Classified App creates a level playing field for buyers. Search by
             distance, price or the freshest posts. When you find something you
             need, message the seller and start chatting!
           </div>
           <div>
-            Sell, swap or give away anything on WorkApp for free and never pay
+            Sell, swap or give away anything on Classified App for free and never pay
             commission. List your items, upload plenty of photos and stand by!
           </div>
           <div>
@@ -60,12 +60,12 @@ export default function Classified() {
               href=""
               className="hover:text-black text-[#2B3C96] md:text-xl"
             >
-              From the Fans: 10 reasons why you should use WorkApp
+              From the Fans: 10 reasons why you should use Classified App
             </a>
             <p>
               One of our delighted fans in Romania, Andrada Anitei, recently
               posted an article in LinkedIn and a blog on her website about
-              WorkApp. We love it when people around the globe get real value
+              Classified App. We love it when people around the globe get real value
               from our platform. You can check their website out here. You have
               probably seen me promoting AND using this new-edge platform for
               almost [...]
@@ -146,10 +146,10 @@ export default function Classified() {
               href=""
               className="hover:text-black text-[#2B3C96] md:text-xl "
             >
-              Free Classifieds simplified on WorkApp
+              Free Classifieds simplified on Classified App
             </a>
             <p>
-              Free Classifieds simplified on WorkApp Globally Not so long ago,
+              Free Classifieds simplified on Classified App Globally Not so long ago,
               if you had wanted to buy used (or new) goods such as a car, TV,
               lounge suite etc, you would look at the Classifieds section of
               your local newspaper or the community noticeboard at your local

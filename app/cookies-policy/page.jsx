@@ -19,8 +19,8 @@ function Cookies() {
                     <h1>1. Cookies Policy</h1> <br />
                     <p>
                         Thanks for visiting our Cookies Policy (Policy),
-                        we are WorkApp Pty Ltd ACN 163 385 804 of Level 52, 111 Eagle Street,
-                        Brisbane, QLD 4000 Australia (WorkApp, we, our, us and other similar terms).
+                        we are Classified App Pty Ltd ACN 163 385 804 of Level 52, 111 Eagle Street,
+                        Brisbane, QLD 4000 Australia (Classified App, we, our, us and other similar terms).
                         This Cookies Policy should be read in conjunction with our Privacy Policy.
                         By continuing to use this site, you are accepting our use of cookies and our use of your Personal
                         Information in accordance with our Privacy Policy.
@@ -33,7 +33,7 @@ function Cookies() {
                     </p>
                 </div>
                 <div className='grid grid-col-1 justify-center m-5 h-auto mt-5'>
-                    <h1>3. What type of cookies does WorkApp use?</h1> <br />
+                    <h1>3. What type of cookies does Classified App use?</h1> <br />
                     <p>
                     These allow us to recognise and count the number of visitors and to see how visitors move
                     around our website when they are using it. This helps us to improve the way our website works,
