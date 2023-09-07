@@ -6,7 +6,9 @@ function page() {
       <div className="m-10 text-base pt-0">
         <p>
           Here you can easily navigate to any page on our website. If you have a
-          question, please visit our{" forum.devcircleafrica.com"}
+          question query or anything you may need to be improved kindly please
+          visit the forum and submit your concern, please visit our
+          {" https://forum.devcircleafrica.com"}
         </p>
       </div>
       <div className="flex mx-20 md:mx-40 justify-start py-10">
@@ -23,7 +25,7 @@ function page() {
           </li>
           <li>
             <a href="/business" className=" text-black hover:text-[#079DE2]">
-              Businesses
+              Business
             </a>
           </li>
           <li>
@@ -56,7 +58,7 @@ function page() {
           </li>
           <li>
             <a href="" className=" text-black hover:text-[#079DE2]">
-              How Classified App works
+              How Classified App works for all levels of users
             </a>
           </li>
           <li>
