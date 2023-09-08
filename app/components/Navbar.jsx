@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import { FaLongArrowAltRight } from "react-icons/fa";
+import { ImHome3 } from "react-icons/im";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -44,7 +45,7 @@ function Navbar() {
       </ul>
 
 <div className="left-0 mt-5 ml-5 text-white md:hidden"> 
-  <FaLongArrowAltRight size={30} />
+  <ImHome3 size={30} />
 </div>
       {/* mobile button */}
       <div
