@@ -203,7 +203,6 @@ export default function Home() {
           />
         </div>
       </div>
-      {/*Panel for the homepage*/}
       <div className="bg-[url('/assets/testimonials.jpg')] bg-cover md:py-5 py-3">
         <h1 className="flex justify-center text-[#2B3C96]">
           QUESTIONS?
