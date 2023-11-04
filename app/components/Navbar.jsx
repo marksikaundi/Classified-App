@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-// import { FaLongArrowAltRight } from "react-icons/fa";
 import { ImHome3 } from "react-icons/im";
 
 function Navbar() {
@@ -28,9 +27,6 @@ function Navbar() {
   return (
     <div className="w-full flex h-20">
       <ul className="hidden w-full sm:flex justify-center items-center">
-        {/* <Link href="/">
-        <li className='hover:text-amber-600 ml-4 hover:border-b text-sm lg:text-xl'>home</li>
-    </Link> */}
         <nav className="hidden text-sm sm:flex flex-wrap items-center">
           {navigationLinks.map((link) => (
             <Link key={link.id} href={link.href}>
@@ -44,10 +40,9 @@ function Navbar() {
         </nav>
       </ul>
 
-<div className="left-0 mt-5 ml-5 text-white md:hidden"> 
-  <ImHome3 size={30} />
-</div>
-      {/* mobile button */}
+      <div className="left-0 mt-5 ml-5 text-white md:hidden">
+        <ImHome3 size={30} />
+      </div>
       <div
         onClick={handleNav}
         className="absolute right-0 pt-4 mr-4 text-white sm:hidden z-10"
